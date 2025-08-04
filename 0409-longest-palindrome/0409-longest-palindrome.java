@@ -1,7 +1,7 @@
 class Solution {
     public int longestPalindrome(String s) {
          Set<Character> seen = new HashSet<>();
-         int res = 0;
+         int res = 0; 
          for(var x: s.toCharArray()) {
                 if(seen.contains(x)) {
                     seen.remove(x);
