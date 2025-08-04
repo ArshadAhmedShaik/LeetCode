@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0290-word-pattern](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0290-word-pattern) |
 | [0409-longest-palindrome](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0409-longest-palindrome) |
+| [1741-sort-array-by-increasing-frequency](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 ## String
 |  |
 | ------- |
@@ -16,10 +17,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [1741-sort-array-by-increasing-frequency](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2042-maximum-product-difference-between-two-pairs) |
 ## Sorting
 |  |
 | ------- |
+| [1741-sort-array-by-increasing-frequency](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2042-maximum-product-difference-between-two-pairs) |
 ## Greedy
 |  |
