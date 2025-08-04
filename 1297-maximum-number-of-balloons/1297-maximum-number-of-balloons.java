@@ -1,7 +1,7 @@
 class Solution {
     public int maxNumberOfBalloons(String text) {
         int[] count = new int[26];
-        for(var x: text.toCharArray()) {
+        for(char x: text.toCharArray()) {
                 count[x-'a']++;
         }
      
