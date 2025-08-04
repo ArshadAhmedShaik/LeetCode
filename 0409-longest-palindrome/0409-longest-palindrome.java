@@ -1,16 +1,13 @@
 class Solution {
     public int longestPalindrome(String s) {
-         Set<Character> seen = new HashSet<>();
-         int res = 0; 
-         for(var x: s.toCharArray()) {
-                if(seen.contains(x)) {
-                    seen.remove(x);
+          Map<Character, Integer> map = new HashMap<>();
+          int res = 0;
+          for(var x: s.toCharArray()) {
+                map.put(x, map.getOrDefault(x, 0)+1);
+                if(map.get(x)%2==0) {
                     res += 2;
-                } else {
-                    seen.add(x);
                 }
-         }
-         if(!seen.isEmpty()) res++;
-         return res; 
+          }
+          return (res<s.length()) ? res + 1 : res;
     }
 }
