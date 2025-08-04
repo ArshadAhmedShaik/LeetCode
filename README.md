@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0290-word-pattern) |
 | [0409-longest-palindrome](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0409-longest-palindrome) |
 | [1217-relative-sort-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1217-relative-sort-array) |
+| [1297-maximum-number-of-balloons](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1297-maximum-number-of-balloons) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2502-sort-the-people) |
 ## String
@@ -16,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0290-word-pattern](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0290-word-pattern) |
 | [0409-longest-palindrome](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0409-longest-palindrome) |
+| [1297-maximum-number-of-balloons](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1297-maximum-number-of-balloons) |
 | [2502-sort-the-people](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2502-sort-the-people) |
 ## Array
 |  |
@@ -39,4 +41,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1217-relative-sort-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1217-relative-sort-array) |
+| [1297-maximum-number-of-balloons](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1297-maximum-number-of-balloons) |
 <!---LeetCode Topics End-->
