@@ -1,15 +1,23 @@
 class Solution {
     public int longestPalindrome(String s) {
        int[] count = new int[128];
+       int res = 0;
        for(int i = 0;i < s.length();i++) {
             count[s.charAt(i)]++;
-       }
-       int evenCount = 0;
-       for(int i = 0;i < count.length;i++) {
-            if(count[i]!=0) {
-                evenCount += (count[i]/2)*2;
+            if(count[s.charAt(i)]%2==0) {
+                res += 2;
             }
        }
-       return (evenCount<s.length()) ? evenCount + 1 : evenCount;
+
+       for(int i = 0;i < count.length;i++) {
+            if(count[i]%2!=0) {
+                res += 1;
+                break;
+            }
+       }
+
+         return res;
+      
+       
     }
 }
