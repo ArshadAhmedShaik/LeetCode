@@ -1,41 +1,29 @@
 class Solution {
 
-    class Pair {
-        int num;
-        int freq;
-
-        Pair(int num, int freq) {
-            this.num = num;
-            this.freq = freq;
-        }
-    }
-
     public int[] frequencySort(int[] nums) {
 
-        int[] count = new int[201];
-        for (var x : nums)
-            count[x + 100]++;
-
-        List<Pair> freqList = new ArrayList<>();
-
-        for (int i = 0; i < count.length; i++) {
-            if (count[i] > 0)
-                freqList.add(new Pair(i - 100, count[i]));
+        Map<Integer, Integer> map = new HashMap<>();
+        for(var x: nums) {
+            map.put(x, map.getOrDefault(x, 0)+1);
         }
 
-        freqList.sort((a, b) -> (a.freq == b.freq) ? b.num - a.num : a.freq - b.freq);
+        Integer[] arr = Arrays.stream(nums).boxed().toArray(Integer[]::new);
 
-        int[] result = new int[nums.length];
+        Arrays.sort(arr, (a,b) -> {
+            int afreq = map.get(a);
+            int bfreq = map.get(b);
+           if(afreq==bfreq) {
+                return b - a;
+           } else {
+            return afreq - bfreq;
+           }
+        }); 
 
-        int index = 0;
-        for (Pair p : freqList) {
-            while (p.freq != 0) {
-                result[index++] = p.num;
-                p.freq--;
-            }
+       for (int i = 0; i < nums.length; i++) {
+            nums[i] = arr[i];
         }
 
-        return result;
+        return nums;
 
     }
 }
