@@ -8,16 +8,8 @@ class Solution {
     public static int majorityElement(int[] nums) {
 
      
-            int element = -1;
-            int count = 0;
-
-            for(var x: nums) {
-                if(count==0) element = x;
-                if(x==element) count++;
-                else count--;
-            }
-
-            return element;
+            Arrays.sort(nums);
+            return nums[nums.length/2];
    
     }
 }
