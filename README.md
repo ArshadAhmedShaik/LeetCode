@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0383-ransom-note) |
 | [0409-longest-palindrome](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0409-longest-palindrome) |
 | [0496-next-greater-element-i](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0496-next-greater-element-i) |
+| [1112-find-words-that-can-be-formed-by-characters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1217-relative-sort-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1217-relative-sort-array) |
 | [1297-maximum-number-of-balloons](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1297-maximum-number-of-balloons) |
 | [1635-number-of-good-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1635-number-of-good-pairs) |
@@ -24,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0383-ransom-note) |
 | [0409-longest-palindrome](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0409-longest-palindrome) |
+| [1112-find-words-that-can-be-formed-by-characters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1297-maximum-number-of-balloons](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1297-maximum-number-of-balloons) |
 | [2502-sort-the-people](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2502-sort-the-people) |
 ## Array
@@ -32,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0169-majority-element) |
 | [0496-next-greater-element-i](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0932-monotonic-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0932-monotonic-array) |
+| [1112-find-words-that-can-be-formed-by-characters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1217-relative-sort-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1217-relative-sort-array) |
 | [1635-number-of-good-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1635-number-of-good-pairs) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -56,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0169-majority-element) |
 | [0383-ransom-note](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0383-ransom-note) |
+| [1112-find-words-that-can-be-formed-by-characters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1217-relative-sort-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1217-relative-sort-array) |
 | [1297-maximum-number-of-balloons](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1297-maximum-number-of-balloons) |
 | [1635-number-of-good-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1635-number-of-good-pairs) |
