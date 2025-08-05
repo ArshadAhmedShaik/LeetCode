@@ -4,19 +4,32 @@ class Solution {
         int[] ans = new int[n];
         int index = 0;
 
+        Stack<Integer> stack = new Stack<>();
+
+        int[] nextGreater = new int[nums2.length];
+
+        for(int i = nums2.length-1;i>=0;i--) {
+                
+                while(!stack.isEmpty()) {
+                        if(stack.peek()<=nums2[i]) {
+                                stack.pop();
+                        } else {
+                                nextGreater[i] = stack.peek();
+                                stack.push(nums2[i]);
+                                break;
+                        }
+                }
+                if(stack.isEmpty()) {
+                    nextGreater[i] = -1;
+                }
+                stack.push(nums2[i]);
+        }
+
         for(int i = 0;i < n;i++) {
             for(int j = 0;j < nums2.length;j++) {
                     if(nums1[i]==nums2[j]) {
-                        // find the next greatest element 
-                        int greaterElement = -1;
-                            for(int k = j+1;k < nums2.length;k++) {
-                                    if(nums2[k]>nums2[j])  {
-                                        greaterElement = nums2[k];
-                                        break;
-                                    }
-                            }
-
-                            ans[index++] = greaterElement;
+                        
+                               ans[index++] = nextGreater[j]; 
 
                     }
             }
