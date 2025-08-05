@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0169-majority-element) |
 | [0290-word-pattern](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0290-word-pattern) |
 | [0409-longest-palindrome](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0409-longest-palindrome) |
+| [0496-next-greater-element-i](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0496-next-greater-element-i) |
 | [1217-relative-sort-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1217-relative-sort-array) |
 | [1297-maximum-number-of-balloons](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1297-maximum-number-of-balloons) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -24,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0169-majority-element) |
+| [0496-next-greater-element-i](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0496-next-greater-element-i) |
 | [1217-relative-sort-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1217-relative-sort-array) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2042-maximum-product-difference-between-two-pairs) |
@@ -50,4 +52,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0169-majority-element) |
+## Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0496-next-greater-element-i) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
