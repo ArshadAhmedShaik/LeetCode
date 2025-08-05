@@ -1,27 +1,17 @@
 class Solution {
     public int majorityElement(int[] nums) {
 
-        int n = nums.length;
+      int res = 0;
+      int count = 0;
+
+      for(var x: nums) {
+        if(count == 0) res = x; 
+            if(x!=res) count--;
+            else count++;
            
-           Map<Integer, Integer> map = new HashMap<>();
+      }
 
-           for(var x: nums) {
-                map.put(x, map.getOrDefault(x, 0)+1);
-           }
-
-           
-            int max = 0;
-            int element = -1;
-           for(var x: map.entrySet()) {
-                int value = x.getKey();
-                int freq = x.getValue();
-                if(freq>max) {
-                    max = freq;
-                    element = value;
-                }
-           }
-
-           return element;
+      return res;
    
     }
 }
