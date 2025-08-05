@@ -9,19 +9,10 @@ class Solution {
         int[] nextGreater = new int[nums2.length];
 
         for(int i = nums2.length-1;i>=0;i--) {
-                
-                while(!stack.isEmpty()) {
-                        if(stack.peek()<=nums2[i]) {
-                                stack.pop();
-                        } else {
-                                nextGreater[i] = stack.peek();
-                                stack.push(nums2[i]);
-                                break;
-                        }
-                }
-                if(stack.isEmpty()) {
-                    nextGreater[i] = -1;
-                }
+              while (!stack.isEmpty() && stack.peek() <= nums2[i]) {
+        stack.pop();
+    }
+                 nextGreater[i] = stack.isEmpty() ? -1 : stack.peek();
                 stack.push(nums2[i]);
         }
 
