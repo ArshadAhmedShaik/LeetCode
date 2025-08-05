@@ -9,20 +9,19 @@ class Solution {
                 map.put(x, map.getOrDefault(x, 0)+1);
            }
 
-           int target = n / 2;
-
+           
+            int max = 0;
+            int element = -1;
            for(var x: map.entrySet()) {
                 int value = x.getKey();
                 int freq = x.getValue();
-                if(freq>target) {
-                    return value;
+                if(freq>max) {
+                    max = freq;
+                    element = value;
                 }
            }
 
-           return -1;
-
-        /*Follow Up*/
-
-           
+           return element;
+   
     }
 }
