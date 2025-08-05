@@ -19,6 +19,8 @@ class Solution {
                     return start;
                 }
 
+                } else {
+                    return -1;
                 }
         }
         return -1;
