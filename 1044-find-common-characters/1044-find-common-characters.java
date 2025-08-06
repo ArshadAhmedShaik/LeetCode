@@ -1,42 +1,45 @@
 class Solution {
     public List<String> commonChars(String[] words) {
-        HashMap<Character, Integer> map = new HashMap<>();
-        String first = words[0];
+       
+         String first = words[0];
+         Map<Character, Integer> map = new HashMap<>();
 
-        if(words.length == 1) {
-            List<String> list = new ArrayList<>();
-            for(int i = 0;i < first.length();i++) {
-                    list.add(String.valueOf(first.charAt(i)));
-            }
-            return list;
-        } 
+         for(int i = 0;i < first.length();i++) {
+                map.put(first.charAt(i), map.getOrDefault(first.charAt(i), 0)+1);
+         }
 
-        for (int i = 0; i < first.length(); i++) {
-            map.put(first.charAt(i), map.getOrDefault(first.charAt(i), 0) + 1);
-        }
-
-        List<String> list = new ArrayList<>();
-        for (int i = 1; i < words.length; i++) {
-            list.clear();
-            String cmp = words[i];
-            for (int j = 0; j < cmp.length(); j++) {
-                if (map.containsKey(cmp.charAt(j))) {
-                    if (map.get(cmp.charAt(j)) != 0) {
-                        map.put(cmp.charAt(j), map.get(cmp.charAt(j)) - 1);
-                        list.add(String.valueOf(cmp.charAt(j)));
-                    }
+         for(int i = 1;i < words.length;i++) {
+                String word = words[i];
+                Map<Character, Integer> temp = new HashMap<>();
+                
+         for(int j = 0;j < word.length();j++) {
+                temp.put(word.charAt(j), temp.getOrDefault(word.charAt(j), 0)+1);
+         }
+         Iterator<Map.Entry<Character, Integer>> it = map.entrySet().iterator();
+                while(it.hasNext()) {
+                        Map.Entry<Character, Integer> x = it.next();
+                        char ch = x.getKey();
+                        int freq = x.getValue();
+                        if(temp.containsKey(ch)) {
+                                map.put(ch, Math.min(map.get(ch),temp.get(ch)));
+                        } else {
+                            it.remove();
+                        }
                 }
-            }
 
-            map.clear();
+         }
+        List<String> list = new ArrayList<>();
 
-            for (var x : list) {
-                map.put(x.charAt(0), map.getOrDefault(x.charAt(0), 0) + 1);
-            }
+         for(var x: map.entrySet()) {
+                char ch = x.getKey();
+                int freq = x.getValue();
+                while(freq!=0) {
+                        list.add(String.valueOf(ch));
+                        freq--;
+                }
+         }
 
-        }
-
-        return list;
+         return list;
 
     }
 }
