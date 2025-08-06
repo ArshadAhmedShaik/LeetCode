@@ -1,15 +1,21 @@
 class Solution {
 
-    //  static{
-    //     for(int i=0;i<500;i++)
-    //      majorityElement(new int[]{0});
-    // }
-
+   
     public static int majorityElement(int[] nums) {
 
      
-            Arrays.sort(nums);
-            return nums[nums.length/2];
+     int count = 0;
+     int res = -1;
+
+     for(var x: nums) {
+            if(count==0) res = x;
+            if(x==res) count++;
+            else {
+                count--;
+            }
+     }
+
+      return res;      
    
     }
 }
