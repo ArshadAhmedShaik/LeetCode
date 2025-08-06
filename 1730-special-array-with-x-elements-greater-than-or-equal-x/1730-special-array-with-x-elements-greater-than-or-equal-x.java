@@ -5,13 +5,10 @@ class Solution {
             if(x>=nums.length) count[nums.length]++;
             else count[x]++;
        }
-
-       for(int i = count.length - 2;i>=0;i--) {
-                count[i] += count[i+1];
-       }
-
-       for(int i = 0;i < count.length;i++) {
-                if(count[i]==i) return i;
+       int sum = 0;
+       for(int i = count.length-1;i>=0;i--) {
+            sum += count[i];
+            if(sum==i) return i; 
        }
 
        return -1;
