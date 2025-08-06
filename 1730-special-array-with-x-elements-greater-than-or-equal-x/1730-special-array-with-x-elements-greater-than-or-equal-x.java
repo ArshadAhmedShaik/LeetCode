@@ -1,17 +1,20 @@
 class Solution {
     public int specialArray(int[] nums) {
-       int n = nums.length;
-       int prev = -1;
-       Arrays.sort(nums);
-       for(int i = 0;i < nums.length;i++) {
-                int greaterOrEqual = n - i;
-                if(nums[i]==greaterOrEqual) return nums[i];
-                while(i < nums.length-1 && nums[i]==nums[i+1]) i++;
-                if(greaterOrEqual > prev && greaterOrEqual < nums[i]) {
-                        return greaterOrEqual;
-                }
-                prev = nums[i];
+       int[] count = new int[nums.length+1];
+       for(var x: nums) {
+            if(x>=nums.length) count[nums.length]++;
+            else count[x]++;
        }
+
+       for(int i = count.length - 2;i>=0;i--) {
+                count[i] += count[i+1];
+       }
+
+       for(int i = 0;i < count.length;i++) {
+                if(count[i]==i) return i;
+       }
+
        return -1;
+
     }
 }
