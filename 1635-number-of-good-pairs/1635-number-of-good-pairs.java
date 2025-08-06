@@ -1,11 +1,11 @@
 class Solution {
     public int numIdenticalPairs(int[] nums) {
-       Map<Integer, Integer> map = new HashMap<>();
-       int res = 0;
-       for(var x: nums) {
-            res += map.getOrDefault(x, 0);
-            map.put(x, map.getOrDefault(x, 0)+1);
-       }
-       return res;
+      Map<Integer, Integer> map = new HashMap<>();
+      int res = 0;
+      for(int i = 0;i < nums.length;i++) {
+          res += map.getOrDefault(nums[i], 0);
+          map.put(nums[i], map.getOrDefault(nums[i], 0)+1);
+      }
+      return res;
     }
 }
