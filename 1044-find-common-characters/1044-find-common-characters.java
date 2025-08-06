@@ -1,45 +1,27 @@
 class Solution {
     public List<String> commonChars(String[] words) {
        
-         String first = words[0];
-         Map<Character, Integer> map = new HashMap<>();
+      int[] count = new int[26];
+      Arrays.fill(count, Integer.MAX_VALUE);
 
-         for(int i = 0;i < first.length();i++) {
-                map.put(first.charAt(i), map.getOrDefault(first.charAt(i), 0)+1);
-         }
-
-         for(int i = 1;i < words.length;i++) {
-                String word = words[i];
-                Map<Character, Integer> temp = new HashMap<>();
-                
-         for(int j = 0;j < word.length();j++) {
-                temp.put(word.charAt(j), temp.getOrDefault(word.charAt(j), 0)+1);
-         }
-         Iterator<Map.Entry<Character, Integer>> it = map.entrySet().iterator();
-                while(it.hasNext()) {
-                        Map.Entry<Character, Integer> x = it.next();
-                        char ch = x.getKey();
-                        int freq = x.getValue();
-                        if(temp.containsKey(ch)) {
-                                map.put(ch, Math.min(map.get(ch),temp.get(ch)));
-                        } else {
-                            it.remove();
-                        }
+      for(int i = 0;i < words.length;i++) {
+                int[] curCount = new int[26];
+                for(int j = 0;j < words[i].length();j++) {
+                        curCount[words[i].charAt(j)-'a']++;
                 }
-
-         }
-        List<String> list = new ArrayList<>();
-
-         for(var x: map.entrySet()) {
-                char ch = x.getKey();
-                int freq = x.getValue();
-                while(freq!=0) {
-                        list.add(String.valueOf(ch));
-                        freq--;
+                for(int j = 0;j < 26;j++) {
+                        count[j] = Math.min(count[j], curCount[j]);
                 }
-         }
+      }
 
-         return list;
+      List<String> list = new ArrayList<>();
+      for(int i = 0;i < 26;i++) {
+            while(count[i]!=0) {
+            list.add(String.valueOf((char)(i + 'a')));
+            count[i]--;
+            }
+      }
+      return list;
 
     }
 }
