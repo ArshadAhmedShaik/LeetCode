@@ -1,37 +1,42 @@
 class Solution {
     public List<String> commonChars(String[] words) {
-        if(words.length == 1) {
-           List<String> res = new ArrayList<>();
-           for(int i = 0;i < words[0].length();i++) {
-                    res.add(String.valueOf(words[0].charAt(i)));
-           }
-           return res;
-        }
-        Map<Character, Integer> map = new HashMap<>();
+        HashMap<Character, Integer> map = new HashMap<>();
         String first = words[0];
+
+        if(words.length == 1) {
+            List<String> list = new ArrayList<>();
+            for(int i = 0;i < first.length();i++) {
+                    list.add(String.valueOf(first.charAt(i)));
+            }
+            return list;
+        } 
+
         for (int i = 0; i < first.length(); i++) {
             map.put(first.charAt(i), map.getOrDefault(first.charAt(i), 0) + 1);
         }
-        List<String> res = new ArrayList<>();
-        for (int i = 1; i < words.length; i++) {
-            List<String> list = new ArrayList<>();
 
-            String str = words[i];
-            for (int j = 0; j < str.length(); j++) {
-                char ch = str.charAt(j);
-                if (map.containsKey(ch)) {
-                    if (map.get(ch) != 0) {
-                        map.put(ch, map.get(ch) - 1);
-                        list.add(String.valueOf(ch));
+        List<String> list = new ArrayList<>();
+        for (int i = 1; i < words.length; i++) {
+            list.clear();
+            String cmp = words[i];
+            for (int j = 0; j < cmp.length(); j++) {
+                if (map.containsKey(cmp.charAt(j))) {
+                    if (map.get(cmp.charAt(j)) != 0) {
+                        map.put(cmp.charAt(j), map.get(cmp.charAt(j)) - 1);
+                        list.add(String.valueOf(cmp.charAt(j)));
                     }
                 }
             }
+
             map.clear();
+
             for (var x : list) {
                 map.put(x.charAt(0), map.getOrDefault(x.charAt(0), 0) + 1);
             }
-            res = list;
+
         }
-        return res;
+
+        return list;
+
     }
 }
