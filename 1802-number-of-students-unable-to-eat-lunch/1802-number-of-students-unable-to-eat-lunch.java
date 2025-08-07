@@ -1,18 +1,15 @@
 class Solution {
     public int countStudents(int[] students, int[] sandwiches) {
-        Stack<Integer> stack = new Stack<>();
         Queue<Integer> queue = new LinkedList<>();
         for(var x: students) {
             queue.offer(x);
         }
-        for(int i = sandwiches.length-1;i>=0;i--) {
-            stack.push(sandwiches[i]);
-        }
+        int top = 0;
         int rotations = 0;
-        while(!stack.isEmpty() && rotations < queue.size()) {
-                if(queue.peek()==stack.peek()) {
+        while(top <= sandwiches.length  && rotations < queue.size()) {
+                if(queue.peek()==sandwiches[top]) {
                     queue.poll();
-                    stack.pop();
+                    top++;
                     rotations = 0;
                 } else {
                     int temp = queue.remove();
