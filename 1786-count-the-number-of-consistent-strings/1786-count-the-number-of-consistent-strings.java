@@ -1,26 +1,26 @@
 class Solution {
     public int countConsistentStrings(String allowed, String[] words) {
-        boolean[] bool=new boolean[26];
-        for(char c: allowed.toCharArray()){
-            bool[c-'a']=true;
+        int bitMask = 0;
+        for(var x: allowed.toCharArray()) {
+                int temp = 1;
+                int shift = x - 'a';
+                temp = temp<<shift;
+                bitMask = bitMask|temp;
         }
-        int count=0;
-        for(String word:words){
-            if(helper(word,bool))
-            {
-            count++;
+        int count = 0;
+        for(var x: words) {
+            boolean isConsistent = true;
+            for(var ch: x.toCharArray()) {
+                    int temp = 1;
+                    int shift = ch - 'a';
+                    temp = temp<<shift;
+                    if((temp&bitMask)==0) {
+                        isConsistent = false;
+                        break;
+                    }  
             }
+            if(isConsistent) count++;
         }
-    
-    return count;
-}
-private boolean helper(String word,boolean[] allowes){
-    for(int i=0;i<word.length();i++)
-    {
-if(!allowes[word.charAt(i)-'a']){
-    return false;
-}
+        return count;
     }
-return true;
-}  
 }
