@@ -1,22 +1,21 @@
 class Solution {
     public int countConsistentStrings(String allowed, String[] words) {
-        boolean[] allowedChars = new boolean[26];
+        int mask = 0;
         for (char c : allowed.toCharArray()) {
-            allowedChars[c - 'a'] = true;
+            mask |= 1 << (c - 'a');
         }
 
         int count = 0;
         for (String word : words) {
             boolean isConsistent = true;
             for (char c : word.toCharArray()) {
-                if (!allowedChars[c - 'a']) {
+                if ((mask & (1 << (c - 'a'))) == 0) {
                     isConsistent = false;
                     break;
                 }
             }
             if (isConsistent) count++;
         }
-
         return count;
     }
 }
