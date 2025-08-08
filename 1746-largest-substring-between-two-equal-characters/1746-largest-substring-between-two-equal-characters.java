@@ -10,14 +10,10 @@ class Solution {
                 if(firstOccurence[ch - 'a']==-1) {
                     firstOccurence[ch - 'a'] = i;
                 }
+                lastOccurence[ch-'a'] = i;
         }
 
-        for(int i = s.length()-1;i>=0;i--) {
-                char ch = s.charAt(i);
-                if(lastOccurence[ch - 'a']==-1) {
-                    lastOccurence[ch - 'a'] = i;
-                }
-        }
+       
 
         int max = -1;
 
