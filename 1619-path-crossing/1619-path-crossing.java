@@ -27,6 +27,6 @@ class Solution {
     }
 
     private long encode(int x, int y) {
-        return (((long) x) << 32) ^ (y & 0xffffffffL);
+        return (((long) x) << 32) | (y & 0xffffffffL);
     }
 }
