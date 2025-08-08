@@ -1,23 +1,31 @@
 class Solution {
     public int maxLengthBetweenEqualCharacters(String s) {
-        int n = s.length();
-        Set<Character> set = new HashSet<>();
-        int max = -1;
-        for(int i = 0;i < n;i++) {
+        // abcaefaghiab
+        int[] firstOccurence = new int[26];
+        int[] lastOccurence = new int[26];
+        Arrays.fill(firstOccurence, -1);
+        Arrays.fill(lastOccurence, -1);
+        for(int i = 0;i < s.length();i++) {
                 char ch = s.charAt(i);
-                if(set.contains(ch)) continue;
-                set.add(ch);
-                int index = -1;
-                for(int j = i + 1;j < n;j++) {
-                        if(ch==s.charAt(j)) {
-                            index = j;
-                        }
+                if(firstOccurence[ch - 'a']==-1) {
+                    firstOccurence[ch - 'a'] = i;
                 }
-                if(index!=-1) {
-                max = Math.max(max, index-i-1);
-                }
-
         }
+
+        for(int i = s.length()-1;i>=0;i--) {
+                char ch = s.charAt(i);
+                if(lastOccurence[ch - 'a']==-1) {
+                    lastOccurence[ch - 'a'] = i;
+                }
+        }
+
+        int max = -1;
+
+        for(int i = 0;i < 26;i++) {
+            max = Math.max(lastOccurence[i]-firstOccurence[i]-1, max);
+        }
+        
         return max;
+
     }
 }
