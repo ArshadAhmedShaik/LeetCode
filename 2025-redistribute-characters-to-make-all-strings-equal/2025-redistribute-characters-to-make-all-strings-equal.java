@@ -1,17 +1,14 @@
 class Solution {
     public boolean makeEqual(String[] words) {
         int[] count = new int[26];
-        for(var str: words) {
-                for(var ch: str.toCharArray()) {
-                        count[ch-'a']++;
-                }
-        }
+        for (String word : words)
+            for (char c : word.toCharArray())
+                count[c - 'a']++;
 
-        for(var x: count) {
-                if(x%words.length!=0) return false;
-        }
+        int n = words.length;
+        for (int x : count)
+            if (x % n != 0) return false;
 
         return true;
-
     }
 }
