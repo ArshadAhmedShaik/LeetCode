@@ -1,28 +1,24 @@
-class Solution {
+public class Solution {
     public boolean isPathCrossing(String path) {
-        Set<Integer> set = new HashSet<>();
-        set.add(0);
-        int x1 = 0;
-        int y1 = 0;
-        for(var ch: path.toCharArray()) {
-                if(ch == 'N') {
-                       y1++; 
-                } else if(ch == 'W') {
-                        x1--;
-                } else if(ch == 'E') {
-                       x1++;
-                } else {
-                        y1--;
-                }
-                int str = x1 * 100+ y1;
-                if(set.contains(str)) {
-                        return true;
-                } else {
-                    set.add(str);
-                }
+        Set<Long> visit = new HashSet<>();
+        int x = 0, y = 0;
+        visit.add(hash(x, y));
+
+        for (char c : path.toCharArray()) {
+            if (c == 'N') y++;
+            else if (c == 'S') y--;
+            else if (c == 'E') x++;
+            else if (c == 'W') x--;
+
+            long pos = hash(x, y);
+            if (visit.contains(pos)) return true;
+            visit.add(pos);
         }
 
         return false;
+    }
 
+    private long hash(long x, long y) {
+        return (x << 32) + y;
     }
 }
