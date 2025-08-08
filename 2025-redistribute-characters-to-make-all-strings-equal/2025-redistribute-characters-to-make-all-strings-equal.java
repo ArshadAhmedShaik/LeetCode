@@ -8,7 +8,7 @@ class Solution {
         }
 
         for(var x: count) {
-                if(x!=0 && x%words.length!=0) return false;
+                if(x%words.length!=0) return false;
         }
 
         return true;
