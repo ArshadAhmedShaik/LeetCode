@@ -1,19 +1,22 @@
-class Solution {
+public class Solution {
     public int minOperations(String s) {
-           char startZero = '0';
-           char startOne = '1';
-           int count1 = 0;
-           int count2 = 0;
-           for(char ch: s.toCharArray()) {
-                if(ch != startZero) {
-                    count1++;
-                } else {
-                    count2++;
-                }
-                startZero = (char)('1' - startZero + '0');
-                startOne = (char)('1' - startOne + '0');
-           }
+        int cur = 0, cnt1 = 0;
+        for (char c : s.toCharArray()) {
+            if (c - '0' != cur) {
+                cnt1++;
+            }
+            cur ^= 1;
+        }
 
-           return Math.min(count1, count2);
+        cur = 1;
+        int cnt2 = 0;
+        for (char c : s.toCharArray()) {
+            if (c - '0' != cur) {
+                cnt2++;
+            }
+            cur ^= 1;
+        }
+
+        return Math.min(cnt1, cnt2);
     }
 }
