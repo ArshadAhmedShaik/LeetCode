@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1619-path-crossing](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1619-path-crossing) |
 | [1635-number-of-good-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1635-number-of-good-pairs) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1746-largest-substring-between-two-equal-characters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1746-largest-substring-between-two-equal-characters) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2308-divide-array-into-equal-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1297-maximum-number-of-balloons](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1297-maximum-number-of-balloons) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1619-path-crossing](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1619-path-crossing) |
+| [1746-largest-substring-between-two-equal-characters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1746-largest-substring-between-two-equal-characters) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1884-minimum-changes-to-make-alternating-binary-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1884-minimum-changes-to-make-alternating-binary-string) |
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
