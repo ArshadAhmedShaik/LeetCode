@@ -1,7 +1,7 @@
 class Solution {
     public boolean isPathCrossing(String path) {
-        Set<String> set = new HashSet<>();
-        set.add("0,0");
+        Set<Long> set = new HashSet<>();
+        set.add(encode(0,0));
         int x1 = 0;
         int y1 = 0;
         for(var ch: path.toCharArray()) {
@@ -14,7 +14,7 @@ class Solution {
                 } else {
                         y1--;
                 }
-                String str = x1 + "," + y1;
+                long str = encode(x1,y1);
                 if(set.contains(str)) {
                         return true;
                 } else {
@@ -24,5 +24,9 @@ class Solution {
 
         return false;
 
+    }
+
+    private long encode(int x, int y) {
+        return (((long) x) << 32) ^ (y & 0xffffffffL);
     }
 }
