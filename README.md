@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2346-largest-3-same-digit-number-in-string) |
 | [2502-sort-the-people](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2502-sort-the-people) |
+| [2580-circular-sentence](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2580-circular-sentence) |
 ## Array
 |  |
 | ------- |
