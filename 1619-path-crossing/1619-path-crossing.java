@@ -14,7 +14,7 @@ class Solution {
                 } else {
                         y1--;
                 }
-                int str = x1 * 100000000 + y1;
+                int str = x1 * 100 + y1;
                 if(set.contains(str)) {
                         return true;
                 } else {
