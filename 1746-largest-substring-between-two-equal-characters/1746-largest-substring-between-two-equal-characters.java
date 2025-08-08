@@ -10,7 +10,7 @@ class Solution {
                 int index = -1;
                 for(int j = i + 1;j < n;j++) {
                         if(ch==s.charAt(j)) {
-                            index = Math.max(index, j);
+                            index = j;
                         }
                 }
                 if(index!=-1) {
