@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1537-maximum-score-after-splitting-a-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1619-path-crossing](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1619-path-crossing) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
+| [1884-minimum-changes-to-make-alternating-binary-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1884-minimum-changes-to-make-alternating-binary-string) |
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2346-largest-3-same-digit-number-in-string) |
 | [2502-sort-the-people](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2502-sort-the-people) |
