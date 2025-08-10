@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2502-sort-the-people](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2502-sort-the-people) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 | [2580-circular-sentence](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2580-circular-sentence) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2691-count-vowel-strings-in-ranges) |
 ## Array
 |  |
 | ------- |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2195-time-needed-to-buy-tickets](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2195-time-needed-to-buy-tickets) |
 | [2308-divide-array-into-equal-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2502-sort-the-people](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2502-sort-the-people) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3429-special-array-i) |
@@ -180,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0724-find-pivot-index](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0724-find-pivot-index) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2691-count-vowel-strings-in-ranges) |
 ## Design
 |  |
 | ------- |
