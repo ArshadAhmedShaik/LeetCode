@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0169-majority-element) |
 | [0290-word-pattern](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0383-ransom-note) |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0049-group-anagrams](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0125-valid-palindrome) |
 | [0290-word-pattern](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0290-word-pattern) |
 | [0344-reverse-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0344-reverse-string) |
@@ -57,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0049-group-anagrams) |
 | [0136-single-number](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0169-majority-element) |
 | [0283-move-zeroes](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0283-move-zeroes) |
@@ -87,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0169-majority-element) |
 | [0645-set-mismatch](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0645-set-mismatch) |
 | [1217-relative-sort-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1217-relative-sort-array) |
