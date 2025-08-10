@@ -9,7 +9,7 @@ class Solution {
         }
 
         int[] ans = new int[queries.length];
-        
+
         for (int i = 0; i < queries.length; i++) {
             int start = queries[i][0];
             int end = queries[i][1];
@@ -26,4 +26,5 @@ class Solution {
     private boolean isVowelChar(char c) {
         return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
     }
+    
 }
