@@ -30,7 +30,7 @@ class Solution {
             result.add(nums2[j]);
             j++;
         }
-        return result.toArray(new int[result.size()][2]);
+        return result.toArray(new int[result.size()][]);
     }
 }
         
