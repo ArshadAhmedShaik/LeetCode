@@ -17,10 +17,6 @@ class Solution {
                 String key = new String(arr);
                 map.computeIfAbsent(key, t -> new ArrayList<>()).add(str);
         }
-        List<List<String>> res = new ArrayList<>();
-        for(var x: map.entrySet()) {
-              res.add(x.getValue());
-        }
-        return res;
+        return new ArrayList<>(map.values());
     }
 }
