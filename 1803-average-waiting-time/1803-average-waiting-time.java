@@ -1,14 +1,21 @@
 class Solution {
     public double averageWaitingTime(int[][] customers) {
-        int n = customers.length;
-        int finishTime = 0;
-        double totalWait = 0;
+        int curr=0;
+        long total=0;
+        int m = customers.length;
+        for(int [] n :customers){
 
-        for (int[] c : customers) {
-            finishTime = Math.max(finishTime, c[0]) + c[1];
-            totalWait += finishTime - c[0];
+            int at = n[0];
+            int tt = n[1];
+           if(curr<at)curr=at;
+           
+            int f = curr+tt;
+            int wt = f-at;
+            curr=f;
+            total+=wt;
+            
+
         }
-        
-        return totalWait / n;
+        return (double)total/m;
     }
 }
