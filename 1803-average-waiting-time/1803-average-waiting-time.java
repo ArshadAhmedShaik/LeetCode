@@ -1,11 +1,11 @@
 class Solution {
     public double averageWaitingTime(int[][] customers) {
         int n = customers.length;
-        long ft = 0;
-        long sum = 0;
+        int ft = 0;
+        double sum = 0;
         for(int i = 0;i < n;i++) {
-                long at = customers[i][0];
-                long bt = customers[i][1];
+                int at = customers[i][0];
+                int bt = customers[i][1];
                 if(at>ft) {
                     ft = at + bt;
                 } else {
