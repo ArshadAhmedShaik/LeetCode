@@ -2,19 +2,19 @@ class Solution {
     public String mergeAlternately(String word1, String word2) {
         int n1 = word1.length();
         int n2 = word2.length();
-        StringBuilder res = new StringBuilder(n1 + n2); // pre-allocate
+        char[] merged = new char[n1 + n2];
 
-        int left = 0, right = 0;
-        while (left < n1 && right < n2) {
-            res.append(word1.charAt(left++));
-            res.append(word2.charAt(right++));
+        int i = 0, j = 0, k = 0;
+        while (i < n1 && j < n2) {
+            merged[k++] = word1.charAt(i++);
+            merged[k++] = word2.charAt(j++);
         }
-        while (left < n1) {
-            res.append(word1.charAt(left++));
+        while (i < n1) {
+            merged[k++] = word1.charAt(i++);
         }
-        while (right < n2) {
-            res.append(word2.charAt(right++));
+        while (j < n2) {
+            merged[k++] = word2.charAt(j++);
         }
-        return res.toString();
+        return new String(merged);
     }
 }
