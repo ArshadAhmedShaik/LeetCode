@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2163-kth-distinct-string-in-an-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2308-divide-array-into-equal-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2502-sort-the-people](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2502-sort-the-people) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## String
 |  |
 | ------- |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2195-time-needed-to-buy-tickets](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2195-time-needed-to-buy-tickets) |
 | [2308-divide-array-into-equal-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2502-sort-the-people](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2502-sort-the-people) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3429-special-array-i) |
 ## Sorting
@@ -131,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0344-reverse-string) |
 | [0680-valid-palindrome-ii](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0680-valid-palindrome-ii) |
 | [1894-merge-strings-alternately](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1894-merge-strings-alternately) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## String Matching
 |  |
 | ------- |
