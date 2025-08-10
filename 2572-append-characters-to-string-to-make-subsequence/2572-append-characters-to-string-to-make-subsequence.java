@@ -1,17 +1,14 @@
 class Solution {
     public int appendCharacters(String s, String t) {
-        int left = 0;   // t
-        int right = 0;  // s
-        int n1 = t.length();
-        int n2 = s.length();
-        while(left<n1 && right<n2) {
-            if(s.charAt(right)==t.charAt(left)) {
-                right++;
+        char[] arrS = s.toCharArray();
+        char[] arrT = t.toCharArray();
+        int left = 0, right = 0;
+        while (left < arrT.length && right < arrS.length) {
+            if (arrS[right] == arrT[left]) {
                 left++;
-            } else {
-                right++;
             }
+            right++;
         }
-        return n1 - left;
+        return arrT.length - left;
     }
 }
