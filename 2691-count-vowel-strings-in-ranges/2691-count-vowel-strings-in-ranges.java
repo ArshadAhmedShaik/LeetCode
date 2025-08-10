@@ -1,5 +1,6 @@
 class Solution {
     public int[] vowelStrings(String[] words, int[][] queries) {
+        
         int n = words.length;
         int[] prefixCount = new int[n + 1];
 
@@ -8,6 +9,7 @@ class Solution {
         }
 
         int[] ans = new int[queries.length];
+        
         for (int i = 0; i < queries.length; i++) {
             int start = queries[i][0];
             int end = queries[i][1];
