@@ -1,23 +1,24 @@
 class Solution {
     public String customSortString(String order, String s) {
-        int[] count = new int[26];
-        for(char x: s.toCharArray()) {
-                count[x-'a']++;
+        int[] countS = new int[26];
+        for (char c : s.toCharArray()) {
+            countS[c - 'a']++;
         }
-        StringBuilder str = new StringBuilder();
-        for(int i = 0;i < order.length();i++) {
-                while(count[order.charAt(i)-'a']!=0) {
-                       str.append(order.charAt(i));
-                       count[order.charAt(i)-'a']--;
-                }
-        }
-        for(int i = 0;i < count.length;i++) {
-                while(count[i]>0) {
-                        str.append((char)(i+'a'));
-                        count[i]--;
-                }
+        
+        StringBuilder sb = new StringBuilder();
+        for (char c : order.toCharArray()) {
+            while (countS[c - 'a']-- > 0) {
+                sb.append(c);
+                
+            }
         }
 
-        return str.toString();
+        for (int i = 0; i < 26; i++) {
+            while (countS[i]-- > 0) {
+                sb.append((char) ('a' + i));
+            }
+        }
+        
+        return sb.toString();
     }
 }
