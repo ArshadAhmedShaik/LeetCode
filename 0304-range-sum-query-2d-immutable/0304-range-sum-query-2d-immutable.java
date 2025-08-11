@@ -16,12 +16,6 @@ class NumMatrix {
             }
         }
 
-        for (int j = 0; j < n; j++) {
-            colPrefixSum[0][j] = matrix[0][j];
-            for (int i = 1; i < m; i++) {
-                colPrefixSum[i][j] = colPrefixSum[i - 1][j] + matrix[i][j];
-            }
-        }
     }
 
     public int sumRegion(int row1, int col1, int row2, int col2) {
