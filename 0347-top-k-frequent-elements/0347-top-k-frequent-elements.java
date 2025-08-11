@@ -1,9 +1,8 @@
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
-        List<Integer> list = new ArrayList<>();
+        int[] result = new int[nums.length];
         Map<Integer, Integer> map = new HashMap<>();
-        
-        // Count frequencies
+     
         for (int x : nums) {
             map.put(x, map.getOrDefault(x, 0) + 1);
         }
@@ -17,11 +16,11 @@ class Solution {
  
         q.addAll(map.keySet());
 
-    
+        int index = 0;
         while (k-- > 0) {
-            list.add(q.poll());
+            result[index++] = q.poll();
         }
 
-        return list.stream().mapToInt(Integer::intValue).toArray();
+        return Arrays.copyOf(result, index);
     }
 }
