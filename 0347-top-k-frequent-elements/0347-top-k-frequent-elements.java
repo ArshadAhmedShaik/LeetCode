@@ -1,6 +1,6 @@
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
-        int[] result = new int[nums.length];
+        int[] result = new int[k];
         Map<Integer, Integer> map = new HashMap<>();
      
         for (int x : nums) {
@@ -21,6 +21,6 @@ class Solution {
             result[index++] = q.poll();
         }
 
-        return Arrays.copyOf(result, index);
+        return result;
     }
 }
