@@ -1,26 +1,25 @@
 class NumMatrix {
-    int[][] prefix;
+    private final int[][] prefix;
+
     public NumMatrix(int[][] matrix) {
         int m = matrix.length;
         int n = matrix[0].length;
-        prefix = new int[m+1][n+1];
-        for(int i = 1;i <= m;i++) {
-                for(int j = 1;j <= n;j++) {
-                      int left = prefix[i][j-1];
-                      int top = prefix[i-1][j];
-                      int diagonal = prefix[i-1][j-1];
-                      prefix[i][j] = matrix[i-1][j-1] + left + top - diagonal;
-                }
+        int[][] pre = new int[m + 1][n + 1];
+        for (int i = 1; i <= m; i++) {
+            int[] preRow = pre[i];
+            int[] preRowAbove = pre[i - 1];
+            int[] matrixRow = matrix[i - 1];
+            for (int j = 1; j <= n; j++) {
+                preRow[j] = matrixRow[j - 1] + preRow[j - 1] + preRowAbove[j] - preRowAbove[j - 1];
+            }
         }
+        this.prefix = pre;
     }
-    
+
     public int sumRegion(int row1, int col1, int row2, int col2) {
-        return prefix[++row2][++col2] - prefix[row2][col1] - prefix[row1][col2] + prefix[row1][col1];
+        row2++;
+        col2++;
+        int[][] pre = this.prefix;
+        return pre[row2][col2] - pre[row2][col1] - pre[row1][col2] + pre[row1][col1];
     }
 }
-
-/**
- * Your NumMatrix object will be instantiated and called as such:
- * NumMatrix obj = new NumMatrix(matrix);
- * int param_1 = obj.sumRegion(row1,col1,row2,col2);
- */
