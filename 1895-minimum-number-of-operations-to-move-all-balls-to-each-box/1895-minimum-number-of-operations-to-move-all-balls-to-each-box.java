@@ -13,8 +13,8 @@ class Solution {
           int countR = 0;
           for(int i = n-2;i >= 0;i--) {
                 if(box[i+1]=='1') countR++;
+                ans[i] += right + countR;
                 right += countR;
-                ans[i] += right;
           }
 
           return ans;
