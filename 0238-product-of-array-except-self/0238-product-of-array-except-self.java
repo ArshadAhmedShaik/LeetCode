@@ -13,18 +13,10 @@ class Solution {
                 for(int x: nums) {
                         if(x==0) count++;
                 } 
-
-               boolean zeroExists = false;
-               for(int x: nums) {
-                    if(x==0) {
-                        zeroExists = true;
-                        break;
-                    }
-               } 
             
                for(int i = 0;i < n;i++) {
                     if(nums[i]!=0) {
-                        if(zeroExists) ans[i] = 0;
+                        if(count>0) ans[i] = 0;
                         else ans[i] = p/nums[i];
                     } else {
                         if(count>=2) {
