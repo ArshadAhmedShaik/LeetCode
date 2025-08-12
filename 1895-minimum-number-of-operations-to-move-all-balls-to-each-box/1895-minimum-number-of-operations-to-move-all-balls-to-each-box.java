@@ -1,8 +1,4 @@
 class Solution {
-    static {
-           for(int i = 0;i < 10000;i++)
-           minOperations(new String("0001000101")); 
-    }
     public static int[] minOperations(String boxes) {
           int n = boxes.length();
           int[] ans = new int[n];
