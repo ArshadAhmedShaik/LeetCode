@@ -1,19 +1,30 @@
 class NumMatrix {
-    private int[][] sums;
-    
+    int[][] prefix;
     public NumMatrix(int[][] matrix) {
-        int n = matrix.length;
-        int m = matrix[0].length;
-        sums = new int[n+1][m+1];
-        for (int i=1; i<=n; i++)
-            for (int j=1; j<=m; j++)
-                sums[i][j] = sums[i-1][j] + sums[i][j-1] + matrix[i-1][j-1] - sums[i-1][j-1];
+        int m = matrix.length;
+        int n = matrix[0].length;
+        prefix = new int[m+1][n+1];
+        for(int i = 1;i <= m;i++) {
+                for(int j = 1;j <= n;j++) {
+                      int left = prefix[i][j-1];
+                      int top = prefix[i-1][j];
+                      int diagonal = prefix[i-1][j-1];
+                      prefix[i][j] = matrix[i-1][j-1] + left + top - diagonal;
+                }
+        }
     }
     
     public int sumRegion(int row1, int col1, int row2, int col2) {
-        int RED_RECTANGLE = sums[row2+1][col2+1];
-        int PURPLE_RECTANGLES = sums[row1][col2+1] + sums[row2+1][col1];
-        int BLUE_RECTANGLE = sums[row1][col1];
-        return RED_RECTANGLE - PURPLE_RECTANGLES + BLUE_RECTANGLE;
+        row1++;
+        col1++;
+        row2++;
+        col2++;
+        return prefix[row2][col2] - prefix[row2][col1-1] - prefix[row1-1][col2] + prefix[row1-1][col1-1];
     }
 }
+
+/**
+ * Your NumMatrix object will be instantiated and called as such:
+ * NumMatrix obj = new NumMatrix(matrix);
+ * int param_1 = obj.sumRegion(row1,col1,row2,col2);
+ */
