@@ -5,6 +5,7 @@ class Solution {
                int[] ans = new int[n];
                int p = 1;
                int count = 0;
+               
                for(int x: nums) {
                     if(x!=0)
                     p *= x;
@@ -12,9 +13,7 @@ class Solution {
                }
 
                
-                
-            
-               for(int i = 0;i < n;i++) {
+                for(int i = 0;i < n;i++) {
                     if(nums[i]!=0) {
                         if(count>0) ans[i] = 0;
                         else ans[i] = p/nums[i];
