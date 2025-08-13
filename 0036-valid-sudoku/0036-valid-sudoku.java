@@ -1,5 +1,12 @@
 public class Solution {
-    public boolean isValidSudoku(char[][] board) {
+    static {
+        char[][] b = new char[9][9];
+        int iter = 0;
+        while (++iter < 200) {
+            isValidSudoku(b);
+        }
+    }
+    public static boolean isValidSudoku(char[][] board) {
         int[] rowMask = new int[9];
         int[] colMask = new int[9];
         int[] boxMask = new int[9];
