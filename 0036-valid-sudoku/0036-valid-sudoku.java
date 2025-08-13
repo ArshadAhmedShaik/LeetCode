@@ -1,25 +1,34 @@
 public class Solution {
     public boolean isValidSudoku(char[][] board) {
-        int[] rows = new int[9];
-        int[] cols = new int[9];
-        int[] squares = new int[9];
 
-        for (int r = 0; r < 9; r++) {
-            for (int c = 0; c < 9; c++) {
-                if (board[r][c] == '.') continue;
+            Set<Character>[] rowSets = new HashSet[9];
+            Set<Character>[] colSets = new HashSet[9];
+            Set<Character>[] boxSets = new HashSet[9];
 
-                int val = board[r][c] - '1';
-
-                if ((rows[r] & (1 << val)) > 0 || (cols[c] & (1 << val)) > 0 ||
-                    (squares[(r / 3) * 3 + (c / 3)] & (1 << val)) > 0) {
-                    return false;
-                }
-
-                rows[r] |= (1 << val);
-                cols[c] |= (1 << val);
-                squares[(r / 3) * 3 + (c / 3)] |= (1 << val);
+            for(int i = 0;i < 9;i++) {
+                    rowSets[i] = new HashSet<>();
+                    colSets[i] = new HashSet<>();
+                    boxSets[i] = new HashSet<>();
             }
-        }
-        return true;
+
+            for(int i = 0;i < 9;i++) {
+                for(int j = 0;j < 9;j++) {
+                     char num = board[i][j];
+                     if(num=='.') continue;
+                     // row scanning
+                     if(!rowSets[i].add(num)) {
+                            return false;
+                     }
+                     // cols checking
+                     if(!colSets[j].add(num)) return false;
+
+                     // box checking
+
+                     int boxIndex = (i/3)*3 + (j/3);
+                     if(!boxSets[boxIndex].add(num)) return false;
+                }
+            }
+
+            return true;
     }
 }
