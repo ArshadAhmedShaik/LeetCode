@@ -1,37 +1,31 @@
 class Solution {
     public boolean isValidSudoku(char[][] board) {
 
-         // row scanning 
-         Set<Character> set = new HashSet<>();
-         for(int i = 0;i < 9;i++) {
-            for(int j = 0;j < 9;j++) {
-                    if(board[i][j]=='.') continue; 
-                    if(!set.add(board[i][j])) return false;
-            }
-            set.clear();
-         }
-         // col scanning
-         for(int j = 0;j < 9;j++) {
-            for(int i = 0;i < 9;i++) {
-                    if(board[i][j]=='.') continue;
-                    if(!set.add(board[i][j])) return false;
-            }
-            set.clear();
-         }
-         // boxes scanning
-         for(int startRow = 0;startRow < 9;startRow += 3) {
-                for(int startCol = 0;startCol < 9;startCol += 3) {
-                        for(int i = startRow;i < startRow + 3;i++) {
-                                for(int j = startCol;j < startCol + 3;j++) {
-                                        if(board[i][j]=='.') continue;
-                                        if(!set.add(board[i][j])) return false;
-                                }
-                        }
-                        set.clear();
-                }
-         }
+        for (int i = 0; i < 9; i++) {
 
-         return true;
+            Set<Character> rows = new HashSet<>();
+            Set<Character> cols = new HashSet<>();
+            Set<Character> boxes = new HashSet<>();
+
+            for(int j = 0;j < 9;j++) {
+
+             
+
+                    if(board[i][j]!='.' && !rows.add(board[i][j])) return false;
+                
+
+                    if(board[j][i]!='.' && !cols.add(board[j][i])) return false;
+            
+
+                int rowIndex = 3 * (i / 3) + j / 3;
+                int colIndex = 3 * (i % 3) + j % 3;
+
+                    if(board[rowIndex][colIndex]!='.' && !boxes.add(board[rowIndex][colIndex])) return false; 
+
+            }
+        }
+
+        return true;
 
     }
 }
