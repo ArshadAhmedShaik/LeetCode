@@ -5,16 +5,17 @@ class Solution {
         for(var x: nums) {
             set.add(x);
         }
-        int longest = 1;
-        int count = 1;
+        int longest = 0;
+        int count = 0;
         for(var x: set) {
             if(!set.contains(x-1)) {
                     count = 1;
                     while(set.contains(x+count)) {
                             count++;
-                            longest = Math.max(longest , count);
+                           
                            }
             }
+             longest = Math.max(longest , count);
              
         }
         return longest;
