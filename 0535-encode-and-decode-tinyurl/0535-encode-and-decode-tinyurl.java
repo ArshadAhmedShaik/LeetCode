@@ -1,17 +1,17 @@
 public class Codec {
 
+    Map<String, String> map = new HashMap<>();
+
     // Encodes a URL to a shortened URL.
     public String encode(String longUrl) {
-           StringBuilder sb = new StringBuilder(longUrl);
-           sb.append("123");
-           return sb.toString();
+            String random = "abxx546";
+            map.put("http://tinyurl.com/" + random, longUrl);
+            return "http://tinyurl.com/" + random;
     }
 
     // Decodes a shortened URL to its original URL.
     public String decode(String shortUrl) {
-        StringBuilder sb = new StringBuilder(shortUrl);
-        sb.delete(shortUrl.length()-3, shortUrl.length());
-        return sb.toString();
+          return map.get(shortUrl);
     }
 }
 
