@@ -10,6 +10,8 @@ class Solution {
                 maxProfit = Math.max(maxProfit, price - minPrice);  
             }
         }
+
+        System.gc();
         
         return maxProfit;
     }
