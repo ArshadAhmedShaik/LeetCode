@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0409-longest-palindrome](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0409-longest-palindrome) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0496-next-greater-element-i) |
+| [0535-encode-and-decode-tinyurl](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0535-encode-and-decode-tinyurl) |
 | [0645-set-mismatch](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0645-set-mismatch) |
 | [0807-custom-sort-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0807-custom-sort-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
@@ -43,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0344-reverse-string) |
 | [0383-ransom-note](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0383-ransom-note) |
 | [0409-longest-palindrome](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0409-longest-palindrome) |
+| [0535-encode-and-decode-tinyurl](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0535-encode-and-decode-tinyurl) |
 | [0680-valid-palindrome-ii](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0680-valid-palindrome-ii) |
 | [0807-custom-sort-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0807-custom-sort-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
@@ -217,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0304-range-sum-query-2d-immutable) |
+| [0535-encode-and-decode-tinyurl](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0535-encode-and-decode-tinyurl) |
 | [1708-design-parking-system](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1708-design-parking-system) |
 ## Heap (Priority Queue)
 |  |
@@ -249,4 +252,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0128-longest-consecutive-sequence) |
+## Hash Function
+|  |
+| ------- |
+| [0535-encode-and-decode-tinyurl](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0535-encode-and-decode-tinyurl) |
 <!---LeetCode Topics End-->
