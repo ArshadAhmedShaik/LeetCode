@@ -258,4 +258,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0535-encode-and-decode-tinyurl](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0535-encode-and-decode-tinyurl) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
