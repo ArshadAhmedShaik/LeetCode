@@ -1,7 +1,8 @@
 class Solution {
     public String largestNumber(int[] nums) {
-        String[] arr = new String[nums.length];
-        for (int i = 0; i < nums.length; i++) {
+        int n = nums.length;
+        String[] arr = new String[n];
+        for (int i = 0; i < n; i++) {
             arr[i] = String.valueOf(nums[i]);
         }
 
