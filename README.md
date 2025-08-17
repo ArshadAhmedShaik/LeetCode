@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0645-set-mismatch](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0645-set-mismatch) |
 | [0807-custom-sort-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0807-custom-sort-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1044-find-common-characters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1044-find-common-characters) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1217-relative-sort-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1217-relative-sort-array) |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0724-find-pivot-index) |
 | [0932-monotonic-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0932-monotonic-array) |
 | [0948-sort-an-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0948-sort-an-array) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1044-find-common-characters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1044-find-common-characters) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1217-relative-sort-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1217-relative-sort-array) |
@@ -228,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0304-range-sum-query-2d-immutable](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0560-subarray-sum-equals-k](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0724-find-pivot-index) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2691-count-vowel-strings-in-ranges) |
