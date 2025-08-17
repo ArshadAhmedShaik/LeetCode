@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0229-majority-element-ii) |
 | [0290-word-pattern](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0290-word-pattern) |
 | [0347-top-k-frequent-elements](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0380-insert-delete-getrandom-o1](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0383-ransom-note) |
 | [0409-longest-palindrome](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0409-longest-palindrome) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0347-top-k-frequent-elements](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0380-insert-delete-getrandom-o1](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0554-brick-wall](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0554-brick-wall) |
@@ -207,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0263-ugly-number](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0263-ugly-number) |
+| [0380-insert-delete-getrandom-o1](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [1635-number-of-good-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1635-number-of-good-pairs) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1950-sign-of-the-product-of-an-array) |
 ## Binary Search
@@ -243,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0304-range-sum-query-2d-immutable) |
+| [0380-insert-delete-getrandom-o1](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0535-encode-and-decode-tinyurl](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0535-encode-and-decode-tinyurl) |
 | [1708-design-parking-system](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1708-design-parking-system) |
 ## Heap (Priority Queue)
@@ -293,4 +297,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
