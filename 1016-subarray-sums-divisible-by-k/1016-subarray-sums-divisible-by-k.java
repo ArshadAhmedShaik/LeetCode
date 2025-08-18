@@ -1,8 +1,7 @@
 class Solution {
- 
-
+    
     public static int subarraysDivByK(int[] nums, int k) {
-        int[] freq = new int[k];
+        int[] freq = new int[k+1];
         freq[0] = 1;
 
         int sum = 0, count = 0;
@@ -16,5 +15,6 @@ class Solution {
             freq[rem] = cnt + 1;
         }
         return count;
+
     }
 }
