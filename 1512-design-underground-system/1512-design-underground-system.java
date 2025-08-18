@@ -10,7 +10,7 @@ class UndergroundSystem {
     }
 
     Map<Integer, CheckIn> map1;
-    Map<String, int[]> map2;
+    Map<Integer, int[]> map2;
 
     public UndergroundSystem() {
         map1 = new HashMap<>();
@@ -23,7 +23,7 @@ class UndergroundSystem {
 
     public void checkOut(int id, String stationName, int t) {
         CheckIn checkIn = map1.remove(id);
-        String key = checkIn.place + "|" + stationName;
+        int key = Objects.hash(checkIn.place, stationName);
 
         map2.putIfAbsent(key, new int[2]);
         map2.get(key)[0] += (t - checkIn.time); 
@@ -31,7 +31,7 @@ class UndergroundSystem {
     }
 
     public double getAverageTime(String startStation, String endStation) {
-        String key = startStation + "|" + endStation;
+        int key = Objects.hash(startStation, endStation);
         int[] data = map2.get(key);
         return (double) data[0] / data[1];
     }
