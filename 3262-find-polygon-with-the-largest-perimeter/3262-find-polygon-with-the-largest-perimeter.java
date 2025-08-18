@@ -4,16 +4,18 @@ class Solution {
           Arrays.sort(nums);
           long[] prefix = new long[n];
           long temp = 0;
-          for(int i = 0;i < n;i++) {
-                temp += nums[i];
-                prefix[i] = temp;
+          long sum = 0;
+
+        for(int i = 0;i < n;i++) {
+                sum += nums[i];
           }
 
           for(int i = n - 1;i >= 2;i--) {
                
-                        if(prefix[i-1]>nums[i]) {
-                            return prefix[i-1]+nums[i];
-                        } 
+                sum -= nums[i];
+                if(sum>nums[i]) {
+                    return sum + nums[i];
+                }
           
           }
 
