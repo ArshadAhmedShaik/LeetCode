@@ -22,12 +22,14 @@ class UndergroundSystem {
     }
 
     public void checkOut(int id, String stationName, int t) {
+       
         CheckIn checkIn = map1.remove(id);
         int key = Objects.hash(checkIn.place, stationName);
 
         map2.putIfAbsent(key, new int[2]);
         map2.get(key)[0] += (t - checkIn.time); 
-        map2.get(key)[1] += 1;                 
+        map2.get(key)[1] += 1;   
+
     }
 
     public double getAverageTime(String startStation, String endStation) {
