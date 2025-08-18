@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1217-relative-sort-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1217-relative-sort-array) |
 | [1297-maximum-number-of-balloons](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1297-maximum-number-of-balloons) |
+| [1512-design-underground-system](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1512-design-underground-system) |
 | [1619-path-crossing](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1619-path-crossing) |
 | [1635-number-of-good-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1635-number-of-good-pairs) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1044-find-common-characters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1044-find-common-characters) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1297-maximum-number-of-balloons](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1297-maximum-number-of-balloons) |
+| [1512-design-underground-system](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1512-design-underground-system) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1619-path-crossing](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1619-path-crossing) |
 | [1746-largest-substring-between-two-equal-characters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1746-largest-substring-between-two-equal-characters) |
@@ -251,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0304-range-sum-query-2d-immutable](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0535-encode-and-decode-tinyurl](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0535-encode-and-decode-tinyurl) |
+| [1512-design-underground-system](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1512-design-underground-system) |
 | [1708-design-parking-system](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1708-design-parking-system) |
 | [2429-design-a-food-rating-system](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2429-design-a-food-rating-system) |
 ## Heap (Priority Queue)
