@@ -1,44 +1,43 @@
-class FoodRatings {
+public class FoodRatings {
+    private Map<String, Integer> foodToRating;
+    private Map<String, String> foodToCuisine;
+    private Map<String, TreeSet<FoodPair>> cuisineToSortedSet;
 
-    class Food {
-        String name, cuisine;
+    private static class FoodPair {
         int rating;
+        String food;
 
-        Food(String name, String cuisine, int rating) {
-            this.name = name;
-            this.cuisine = cuisine;
+        FoodPair(int rating, String food) {
             this.rating = rating;
+            this.food = food;
         }
     }
 
-    Map<String, Food> foodObj;
-    Map<String, TreeSet<Food>> ctof;
-
     public FoodRatings(String[] foods, String[] cuisines, int[] ratings) {
-        foodObj = new HashMap<>();
-        ctof = new HashMap<>();
+        foodToRating = new HashMap<>();
+        foodToCuisine = new HashMap<>();
+        cuisineToSortedSet = new HashMap<>();
 
-        int n = foods.length;
-        for (int i = 0; i < n; i++) {
-            Food f = new Food(foods[i], cuisines[i], ratings[i]);
-            foodObj.put(foods[i], f);
-
-            ctof.computeIfAbsent(cuisines[i], k -> new TreeSet<>(
-                (a, b) -> a.rating != b.rating ? b.rating - a.rating : a.name.compareTo(b.name)
-            )).add(f);
+        for (int i = 0; i < foods.length; i++) {
+            foodToRating.put(foods[i], ratings[i]);
+            foodToCuisine.put(foods[i], cuisines[i]);
+            cuisineToSortedSet.computeIfAbsent(cuisines[i], k -> new TreeSet<>((a, b) -> {
+                if (a.rating != b.rating) return b.rating - a.rating;
+                return a.food.compareTo(b.food);
+            })).add(new FoodPair(ratings[i], foods[i]));
         }
     }
 
     public void changeRating(String food, int newRating) {
-        Food f = foodObj.get(food);
-        TreeSet<Food> set = ctof.get(f.cuisine);
-
-        set.remove(f);
-        f.rating = newRating;  
-        set.add(f);
+        String cuisine = foodToCuisine.get(food);
+        int oldRating = foodToRating.get(food);
+        TreeSet<FoodPair> set = cuisineToSortedSet.get(cuisine);
+        set.remove(new FoodPair(oldRating, food));
+        foodToRating.put(food, newRating);
+        set.add(new FoodPair(newRating, food));
     }
 
     public String highestRated(String cuisine) {
-        return ctof.get(cuisine).first().name;
+        return cuisineToSortedSet.get(cuisine).first().food;
     }
 }
