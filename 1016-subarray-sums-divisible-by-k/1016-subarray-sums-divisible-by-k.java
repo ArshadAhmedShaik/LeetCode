@@ -6,7 +6,8 @@ class Solution {
        int sum = 0;
        for(int x: nums) {
             sum+=x;
-            int rem = ((sum % k) + k)%k;
+            int rem = (sum%k);
+            if(rem<0) rem+=k;    
             if(map[rem]!=0) {
                 count += map[rem];
             }
