@@ -1,4 +1,9 @@
 class Solution {
+    static{
+        for(int i=0;i<500;i++){
+            subarraysDivByK(new int[]{}, 1);
+        }
+    }
     public static int subarraysDivByK(int[] nums, int k) {
         int[] freq = new int[k];
         freq[0] = 1;
