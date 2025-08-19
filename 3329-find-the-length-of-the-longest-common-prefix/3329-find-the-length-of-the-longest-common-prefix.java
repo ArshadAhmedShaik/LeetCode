@@ -14,9 +14,7 @@ class Solution {
                while(n>0) {
                     if(set.contains(n)) {
                             int length = 0;
-                            if(n==0) {
-                                length = 1;
-                            } else {
+                            if(n!=0) {
                                 length = (int)Math.log10(n)+1;
                             }
                             maxLength = Math.max(length, maxLength);
