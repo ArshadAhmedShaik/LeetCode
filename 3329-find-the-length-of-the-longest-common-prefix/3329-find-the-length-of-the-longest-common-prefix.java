@@ -13,7 +13,7 @@ class Solution {
 
         for (int num : arr2) {
             int n = num;
-            int digits = (int)Math.log10(num) + 1;
+            int digits = digitCount(num);
             while (n > 0) {
                 if (prefixSet.contains(n)) {
                     maxLength = Math.max(maxLength, digits);
@@ -24,5 +24,14 @@ class Solution {
         }
 
         return maxLength;
+    }
+
+    private int digitCount(int n) {
+        int count = 0;
+        while (n > 0) {
+            n /= 10;
+            count++;
+        }
+        return count;
     }
 }
