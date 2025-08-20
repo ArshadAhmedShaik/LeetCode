@@ -1,32 +1,34 @@
-import java.math.*;
-class Solution {
-   private String mappedNumber(int n, int[] mapping) {
-    if(n == 0) return String.valueOf(mapping[0]);
-    StringBuilder sb = new StringBuilder();
-    while(n > 0) {
-        int digit = n % 10;
-        sb.append(mapping[digit]);
-        n /= 10;
-    }
-    return sb.reverse().toString(); 
-}
+public class Solution {
     public int[] sortJumbled(int[] mapping, int[] nums) {
+        int n = nums.length;
+        int[][] pairs = new int[n][2];
 
-    Integer[] ans = new Integer[nums.length];
-    for(int i = 0; i < nums.length; i++) {
-        ans[i] = nums[i];
+        for (int i = 0; i < n; i++) {
+            int mapped_n = 0, base = 1;
+            int num = nums[i];
+
+            if (num == 0) {
+                mapped_n = mapping[0];
+            } else {
+                while (num > 0) {
+                    int digit = num % 10;
+                    num /= 10;
+                    mapped_n += base * mapping[digit];
+                    base *= 10;
+                }
+            }
+
+            pairs[i][0] = mapped_n;
+            pairs[i][1] = i;
+        }
+
+        Arrays.sort(pairs, (a, b) -> Integer.compare(a[0], b[0]));
+
+        int[] res = new int[n];
+        for (int i = 0; i < n; i++) {
+            res[i] = nums[pairs[i][1]];
+        }
+
+        return res;
     }
-
-    Arrays.sort(ans, (a, b) -> {
-        String num1 = mappedNumber(a, mapping);
-       String num2 = mappedNumber(b, mapping);
-      return new BigInteger(num1).compareTo(new BigInteger(num2));
-    });
-
-    int[] res = new int[ans.length];
-    for(int i = 0; i < ans.length; i++) res[i] = ans[i];
-
-    return res;
-}
-
 }
