@@ -10,19 +10,19 @@ class Solution {
             
             for (int r = i - 1; r >= 0; r--) {
                 if (arr[r][j] == 2) break;
-                if (arr[r][j] == 0) arr[r][j] = 1;
+                arr[r][j] = 1;
             }
             for (int r = i + 1; r < m; r++) {
                 if (arr[r][j] == 2) break;
-                if (arr[r][j] == 0) arr[r][j] = 1;
+                arr[r][j] = 1;
             }
             for (int c = j - 1; c >= 0; c--) {
                 if (arr[i][c] == 2) break;
-                if (arr[i][c] == 0) arr[i][c] = 1;
+                arr[i][c] = 1;
             }
             for (int c = j + 1; c < n; c++) {
                 if (arr[i][c] == 2) break;
-                if (arr[i][c] == 0) arr[i][c] = 1;
+                arr[i][c] = 1;
             }
         }
 
