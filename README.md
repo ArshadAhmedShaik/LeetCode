@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2163-kth-distinct-string-in-an-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2195-time-needed-to-buy-tickets](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2195-time-needed-to-buy-tickets) |
 | [2308-divide-array-into-equal-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2429-design-a-food-rating-system](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2429-design-a-food-rating-system) |
 | [2502-sort-the-people](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2502-sort-the-people) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2691-count-vowel-strings-in-ranges) |
@@ -247,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1803-average-waiting-time](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1803-average-waiting-time) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2195-time-needed-to-buy-tickets](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2195-time-needed-to-buy-tickets) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -299,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0036-valid-sudoku) |
 | [0304-range-sum-query-2d-immutable](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0304-range-sum-query-2d-immutable) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 ## Union Find
 |  |
 | ------- |
