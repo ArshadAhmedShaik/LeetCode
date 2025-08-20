@@ -1,6 +1,6 @@
 class Solution {
     private boolean isEmpty(int[] count) {
-            for(int i = 0;i < count.length;i++) {
+            for(int i = 1;i < 200;i++) {
                     if(count[i]!=0) return false; 
             }
             return true;
