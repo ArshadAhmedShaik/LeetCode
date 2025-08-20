@@ -1,63 +1,37 @@
 class Solution {
     public int countUnguarded(int m, int n, int[][] guards, int[][] walls) {
-                int[][] arr = new int[m][n];
-                for(int k = 0;k < walls.length;k++) {
-                        int i = walls[k][0];
-                        int j = walls[k][1];
-                        arr[i][j] = 5; 
-                }
-                for(int k = 0;k < guards.length;k++) {
-                        int i = guards[k][0];
-                        int j = guards[k][1];
-                        arr[i][j] = 10;
-                }
-                for(int k = 0;k < guards.length;k++) {
-                        int i = guards[k][0];
-                        int j = guards[k][1];
-                        // north direction:
-                        for(int l = i-1;l >= 0;l--) {
-                                if(arr[l][j]!=5 && arr[l][j]!=10) {
-                                    arr[l][j] = 1;
-                                } else {
-                                     break;   
-                                }
-                        }
-                        // south direction:
-                        for(int l = i+1;l < m;l++) {
-                                if(arr[l][j]!=5 && arr[l][j]!=10) {
-                                    arr[l][j] = 1;
-                                }
-                                    else {
-                                    break;
-                                }
-                        }
-                        // east direction:
-                        for(int l = j+1;l < n;l++) {
-                                if(arr[i][l]!=5 && arr[i][l]!=10) {
-                                    arr[i][l] = 1;
-                                } else {
-                                    break;
-                                }
-                        }
-                        // west direction:
-                        for(int l = j-1;l >= 0;l--) {
-                                if(arr[i][l]!=5 && arr[i][l]!=10) {
-                                    arr[i][l] = 1;
-                                } else {
-                                    break;
-                                }
-                        }
-                }
+        int[][] arr = new int[m][n];
+        
+        for (int[] g : guards) arr[g[0]][g[1]] = 2;
+        for (int[] w : walls) arr[w[0]][w[1]] = 2;
 
-                // calculate total ungaurded cells:
-                int count = 0;
-                for(int[] x: arr) {
-                    for(int y: x) {
-                            if(y==0) {
-                                count++;
-                            }
-                    }
-                }
-        return count;        
+        for (int[] g : guards) {
+            int i = g[0], j = g[1];
+            
+            for (int r = i - 1; r >= 0; r--) {
+                if (arr[r][j] == 2) break;
+                if (arr[r][j] == 0) arr[r][j] = 1;
+            }
+            for (int r = i + 1; r < m; r++) {
+                if (arr[r][j] == 2) break;
+                if (arr[r][j] == 0) arr[r][j] = 1;
+            }
+            for (int c = j - 1; c >= 0; c--) {
+                if (arr[i][c] == 2) break;
+                if (arr[i][c] == 0) arr[i][c] = 1;
+            }
+            for (int c = j + 1; c < n; c++) {
+                if (arr[i][c] == 2) break;
+                if (arr[i][c] == 0) arr[i][c] = 1;
+            }
+        }
+
+        int total = 0;
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (arr[i][j] == 0) total++;
+            }
+        }
+        return total;
     }
 }
