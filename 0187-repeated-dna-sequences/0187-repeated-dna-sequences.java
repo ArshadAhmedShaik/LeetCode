@@ -3,7 +3,7 @@ class Solution {
         int n = s.length();
         if (n < 10) return new ArrayList<>();
 
-        // Map characters to 2-bit codes
+        
         Map<Character, Integer> map = new HashMap<>();
         map.put('A', 0);
         map.put('C', 1); 
