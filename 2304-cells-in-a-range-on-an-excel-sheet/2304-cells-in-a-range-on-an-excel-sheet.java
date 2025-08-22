@@ -1,24 +1,12 @@
 class Solution {
     public List<String> cellsInRange(String s) {
-
-        List<String> ans = new ArrayList<>();
-         
-         char first = s.charAt(0);
-         int row1 = s.charAt(1)-'0';
-         char second = s.charAt(3);
-         int row2 = s.charAt(4)-'0';
-
-         for(char ch = first;ch <= second;ch++) {
-                  for(int j = row1;j <= row2;j++) {
-                            
-                            ans.add(ch + "" + j);
-
-                  }  
-         } 
-
-
-         return ans;
-         
-
+        List<String> cells=new ArrayList<>();
+        char start=s.charAt(1),end=s.charAt(4),st=s.charAt(0),en=s.charAt(3);
+        for(char c=st;c<=en;c++){
+            for(char i=start;i<=end;i++){
+                cells.add(new String(new char[]{c,i}));
+            }
+        } 
+        return cells;
     }
 }
