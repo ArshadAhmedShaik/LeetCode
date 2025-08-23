@@ -1,21 +1,21 @@
 class Solution {
     public int partitionString(String s) {
             
-        Set<Character> set = new HashSet<>();
-        int n = s.length();
-        int count = 0;
-        for(int i = 0;i < n;i++) {
+          int count = 1;
+          int mask = 0;
+          int n = s.length();
+          for(int i = 0;i < n;i++) {
                 char ch = s.charAt(i);
-                if(!set.contains(ch)) {
-                        set.add(ch);
-                } else {
-                    count++;
-                    set.clear();
-                    set.add(ch);
+                // if it is absent
+                int k = 1 << (ch-'a');
+                if((mask&k) == 0) {
+                    mask |= 1 << (ch-'a');
+                } else { // if it is present
+                        count++;
+                        mask = 0;
+                        mask |= 1 << (ch-'a');
                 }
-        }         
-
-        return count+1;  
-
+          }  
+        return count;
     }
 }
