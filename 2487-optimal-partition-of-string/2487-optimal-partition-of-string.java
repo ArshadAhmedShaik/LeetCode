@@ -9,11 +9,11 @@ class Solution {
                 // if it is absent
                 int k = 1 << (ch-'a');
                 if((mask&k) == 0) {
-                    mask |= 1 << (ch-'a');
+                    mask |= k;
                 } else { // if it is present
                         count++;
                         mask = 0;
-                        mask |= 1 << (ch-'a');
+                        mask |= k;
                 }
           }  
         return count;
