@@ -12,8 +12,7 @@ class Solution {
                     mask |= k;
                 } else { // if it is present
                         count++;
-                        mask = 0;
-                        mask |= k;
+                        mask = k;
                 }
           }  
         return count;
