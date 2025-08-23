@@ -15,7 +15,7 @@ class Solution {
                 }
         }         
 
-        return (set.isEmpty()) ? count : count+1;    
+        return count+1;  
 
     }
 }
