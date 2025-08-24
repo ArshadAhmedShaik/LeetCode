@@ -1,60 +1,34 @@
-class Solution {
+public class Solution {
     public List<Integer> findAnagrams(String s, String p) {
+        int n = s.length(), m = p.length();
+        if (m > n) return new ArrayList<>();
 
-        int n = s.length();
-        int m = p.length();
-
-        List<Integer> list = new ArrayList<>();
-
-        if (n < m)
-            return list;
-
-        int[] count = new int[26];
-        for (char ch : p.toCharArray())
-            count[ch - 'a']++;
-
-        int[] compare = new int[26];
-        int start = 0;
-        int end = m - 1;
-
-        for (int i = start; i <= end; i++) {
-            compare[s.charAt(i) - 'a']++;
+        int[] pCount = new int[26];
+        for (char c : p.toCharArray()) {
+            pCount[c - 'a']++;
         }
 
-        // compare the very first time
-
-        boolean isAnagram = true;
-        for (int i = 0; i < 26; i++) {
-            if (count[i] != compare[i]) {
-                isAnagram = false;
-                break;
-            }
+        int[][] prefix = new int[n + 1][26];
+        for (int i = 1; i <= n; i++) {
+            System.arraycopy(prefix[i - 1], 0, prefix[i], 0, 26);
+            prefix[i][s.charAt(i - 1) - 'a']++;
         }
 
-        if (isAnagram)
-            list.add(start);
-
-        start = start + 1;
-        end = end + 1;
-
-        while (end < n) {
-            compare[s.charAt(start - 1) - 'a']--;
-            compare[s.charAt(end) - 'a']++;
-            isAnagram = true;
-            for (int i = 0; i < 26; i++) {
-                if (count[i] != compare[i]) {
-                    isAnagram = false;
+        List<Integer> res = new ArrayList<>();
+        int i = 0, j = m - 1;
+        while (j < n) {
+            boolean isValid = true;
+            for (int c = 0; c < 26; c++) {
+                if (prefix[j + 1][c] - prefix[i][c] != pCount[c]) {
+                    isValid = false;
                     break;
                 }
             }
-
-            if (isAnagram)
-                list.add(start);
-            start++;
-            end++;
+            if (isValid) res.add(i);
+            i++;
+            j++;
         }
 
-        return list;
-
+        return res;
     }
 }
