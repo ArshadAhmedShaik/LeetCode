@@ -3,7 +3,7 @@ import java.util.*;
 public class Solution {
 
     private int map(int num, int[] mapping) {
-        if (num == 0) return mapping[0]; // edge case
+        if (num == 0) return mapping[0]; 
 
         int res = 0, place = 1;
         while (num > 0) {
