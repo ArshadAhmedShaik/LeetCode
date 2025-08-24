@@ -21,7 +21,6 @@ class Solution {
             compare[s.charAt(i) - 'a']++;
         }
 
-        // compare the very first time
 
         boolean isAnagram = true;
         for (int i = 0; i < 26; i++) {
