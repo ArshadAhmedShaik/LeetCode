@@ -1,38 +1,48 @@
 public class Solution {
 
     private int map(int num, int[] mapping) {
-            String str = String.valueOf(num);
-            StringBuilder sb = new StringBuilder();
-            for(char ch: str.toCharArray()) {
-                    int digit = mapping[ch - '0'];
-                    sb.append((char)(digit + '0'));
-            }
-            return Integer.valueOf(sb.toString());
-    }    
 
-    public int[] sortJumbled(int[] mapping, int[] nums) {
-                
-          int n = nums.length;      
-          Integer[] arr = new Integer[n];
-          for(int i = 0;i < n;i++) {
-                arr[i] = nums[i];
-          }    
+        if (num == 0)
+            return mapping[0];
 
-          Arrays.sort(arr, new Comparator<Integer>() {
-                    public int compare(Integer a, Integer b) {
-                            int num1 = map(a, mapping);
-                            int num2 = map(b, mapping);
-                            if(num1>num2) {
-                                return 1;
-                            } else if(num2>num1) {
-                                return -1;
-                            } else {
-                                return 0;
-                            }
-                    }
-          });
+        int res = 0;
+        int place = 1;
+        while (num > 0) {
+            int digit = num % 10;
+            res += (mapping[digit]) * place;
+            place *= 10;
+            num /= 10;
+        }
 
-          return Arrays.stream(arr).mapToInt(Integer::intValue).toArray();
+        return res;
 
     }
-} 
+
+    public int[] sortJumbled(int[] mapping, int[] nums) {
+
+        int n = nums.length;
+        int[][] pairs = new int[n][2];
+
+        for (int i = 0; i < n; i++) {
+            pairs[i][0] = map(nums[i], mapping);
+            pairs[i][1] = nums[i];
+        }
+
+        // Arrays.sort(pairs, new Comparator<int[]>() {
+        //         public int compare(int[] a, int[] b) {
+        //             return Integer.compare(a[0], b[0]);
+        //         }
+        // }
+
+        Arrays.sort(pairs, (a, b) -> Integer.compare(a[0], b[0]));
+
+        int[] res = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            res[i] = pairs[i][1];
+        }
+
+        return res;
+
+    }
+}
