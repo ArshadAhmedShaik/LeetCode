@@ -1,34 +1,60 @@
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
-        List<Integer> ans = new ArrayList<>();
-        int n = p.length();
-        int m = s.length();
-        int[] count = new int[26];
 
-        for(int i = 0;i < n;i++) {
-                count[p.charAt(i)-'a']++;
+        int n = s.length();
+        int m = p.length();
+
+        List<Integer> list = new ArrayList<>();
+
+        if (n < m)
+            return list;
+
+        int[] count = new int[26];
+        for (char ch : p.toCharArray())
+            count[ch - 'a']++;
+
+        int[] compare = new int[26];
+        int start = 0;
+        int end = m - 1;
+
+        for (int i = start; i <= end; i++) {
+            compare[s.charAt(i) - 'a']++;
         }
 
-        for(int i = 0;i <= m - n;i++) {
-            String sub = s.substring(i, i+n);
-            int[] count2 = new int[26];
-            for(int j = 0;j < n;j++) {
-                    count2[sub.charAt(j)-'a']++;
-            }
+        // compare the very first time
 
-            boolean isAnagram = true;
-            for(int j = 0;j < 26;j++) {
-                if(count[j]!=count2[j]) {
-                        isAnagram = false;
-                        break;
+        boolean isAnagram = true;
+        for (int i = 0; i < 26; i++) {
+            if (count[i] != compare[i]) {
+                isAnagram = false;
+                break;
+            }
+        }
+
+        if (isAnagram)
+            list.add(start);
+
+        start = start + 1;
+        end = end + 1;
+
+        while (end < n) {
+            compare[s.charAt(start - 1) - 'a']--;
+            compare[s.charAt(end) - 'a']++;
+            isAnagram = true;
+            for (int i = 0; i < 26; i++) {
+                if (count[i] != compare[i]) {
+                    isAnagram = false;
+                    break;
                 }
             }
 
-            if(isAnagram) {
-                ans.add(i);
-            }
-
+            if (isAnagram)
+                list.add(start);
+            start++;
+            end++;
         }
-        return ans;
+
+        return list;
+
     }
 }
