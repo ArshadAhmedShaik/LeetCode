@@ -63,7 +63,7 @@ class Solution {
 
         // return count;
 
-        // int n = grid[0].length;
+  // int n = grid[0].length;
 
         // long[] preRow1 = new long[n];
         // long[] preRow2 = new long[n];
@@ -85,17 +85,19 @@ class Solution {
         // return res;
 
         int n = grid[0].length;
-        long topSum = 0, bottomSum = 0;
-        for (int i = 0; i < n; i++)
-            topSum += grid[0][i];
+        long topSum = 0;
+        long bottomSum = 0;
         long res = Long.MAX_VALUE;
-        for (int i = 0; i < n; i++) {
-            topSum -= grid[0][i];
-            long secondRobot = Math.max(topSum, bottomSum);
-            res = Math.min(res, secondRobot);
-            bottomSum += grid[1][i];
+        for(int i = 0;i < n;i++) topSum += grid[0][i];
+        for(int i = 0;i < n;i++) {
+                topSum -= grid[0][i];
+                long secondRobot = Math.max(topSum, bottomSum);
+                res = Math.min(res, secondRobot);
+                bottomSum += grid[1][i];
         }
+
         return res;
+
 
     }
 }
