@@ -6,7 +6,7 @@ class Solution {
             for(int i = 0;i < n;i++) {
                  int length = dimensions[i][0];
                  int breadth = dimensions[i][1];
-                 int diagonal = (int)(Math.pow(length, 2) + Math.pow(breadth, 2));
+                 int diagonal = length*length + breadth*breadth;
                  int area = length*breadth;
                  if(diagonal>maxDiagonal) {
                         maxArea = area;
