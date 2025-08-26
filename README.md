@@ -147,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2724-convert-an-array-into-a-2d-array-with-conditions](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2724-convert-an-array-into-a-2d-array-with-conditions) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
+| [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
 | [3262-find-polygon-with-the-largest-perimeter](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3262-find-polygon-with-the-largest-perimeter) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
