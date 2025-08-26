@@ -11,10 +11,11 @@ class Solution {
         int n = s.length();
         int ans = map.get(s.charAt(n-1));
         for(int i = n - 2;i >= 0;i--) {
-            if(map.get(s.charAt(i))<map.get(s.charAt(i+1))) {
+            char ch = s.charAt(i);
+            if(map.get(ch)<map.get(s.charAt(i+1))) {
                     ans -= map.get(s.charAt(i));
             } else {
-                ans += map.get(s.charAt(i));
+                ans += map.get(ch);
             }
         }
         return ans;
