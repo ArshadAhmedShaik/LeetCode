@@ -10,6 +10,6 @@ class Solution {
             end++;
         }
         int length = set.size();
-        return length == Math.pow(2, k);
+        return length == (int)(Math.pow(2, k));
     }
 }
