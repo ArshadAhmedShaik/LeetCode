@@ -370,4 +370,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0187-repeated-dna-sequences) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
+## Enumeration
+|  |
+| ------- |
+| [1212-sequential-digits](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1212-sequential-digits) |
 <!---LeetCode Topics End-->
