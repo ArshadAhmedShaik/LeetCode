@@ -1,7 +1,10 @@
 class Solution {
     public boolean hasAllCodes(String s, int k) {
-        Set<String> set = new HashSet<>();
         int n = s.length();
+        if(n < k) return false;
+
+        Set<String> set = new HashSet<>();
+        
         int start = 0;
         int end = k - 1;
         while(end<n) {
@@ -11,5 +14,10 @@ class Solution {
         }
         int length = set.size();
         return length == (int)(Math.pow(2, k));
+
+        // using a bitMask approach:
+
+
+
     }
 }
