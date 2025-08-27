@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0409-longest-palindrome](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0409-longest-palindrome) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0535-encode-and-decode-tinyurl](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0535-encode-and-decode-tinyurl) |
+| [0551-student-attendance-record-i](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0551-student-attendance-record-i) |
 | [0680-valid-palindrome-ii](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0680-valid-palindrome-ii) |
 | [0807-custom-sort-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0807-custom-sort-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
