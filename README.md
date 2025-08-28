@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2487-optimal-partition-of-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2487-optimal-partition-of-string) |
 | [2502-sort-the-people](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2502-sort-the-people) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
+| [2576-minimum-penalty-for-a-shop](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2576-minimum-penalty-for-a-shop) |
 | [2580-circular-sentence](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2580-circular-sentence) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -291,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2145-grid-game](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2145-grid-game) |
+| [2576-minimum-penalty-for-a-shop](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2576-minimum-penalty-for-a-shop) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3262-find-polygon-with-the-largest-perimeter](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3262-find-polygon-with-the-largest-perimeter) |
 ## Design
