@@ -1,36 +1,30 @@
 class Solution {
     public List<String> wordSubsets(String[] words1, String[] words2) {
+        int[] maxFreq = new int[26];
+        for (String b : words2) {
+            int[] freq = new int[26];
+            for (char ch : b.toCharArray()) {
+                freq[ch - 'a']++;
+            }
+            for (int i = 0; i < 26; i++) {
+                maxFreq[i] = Math.max(maxFreq[i], freq[i]);
+            }
+        }
         List<String> ans = new ArrayList<>();
-     
-        int[] temp = new int[26];
-        for(String str: words2) {
-                int[] count = new int[26];
-                for(char ch: str.toCharArray()) {
-                        count[ch-'a']++;
+        for (String a : words1) {
+            int[] freq = new int[26];
+            for (char ch : a.toCharArray()) {
+                freq[ch - 'a']++;
+            }
+            boolean ok = true;
+            for (int i = 0; i < 26; i++) {
+                if (freq[i] < maxFreq[i]) {
+                    ok = false;
+                    break;
                 }
-                for(int i = 0;i < temp.length;i++) {
-                        if(temp[i]<count[i]) {
-                            temp[i] = count[i];
-                        } 
-                }
+            }
+            if (ok) ans.add(a);
         }
-        for(String str: words1) {
-                boolean isUniversal = true;
-                int[] count2 = new int[26];
-                for(char ch: str.toCharArray()) {
-                        count2[ch-'a']++;
-                }
-                for(int i = 0;i < count2.length;i++) {
-                        if(count2[i]<temp[i]) {
-                                isUniversal = false;
-                                break;
-                        }
-                }
-                if(isUniversal){
-                    ans.add(str);
-                }
-        }
-
         return ans;
     }
 }
