@@ -6,12 +6,7 @@ class Solution {
                      int n = nums.length;
                      for(int i = 0;i < n;i++) {
                             int diff = i - nums[i];
-                            int goodPairs = 0;
-                            if(map.containsKey(diff)) {
-                                    goodPairs = map.get(diff);
-                            } else {
-                                goodPairs = 0;
-                            }
+                            int goodPairs = map.getOrDefault(diff, 0);
 
                            badPairs += i - goodPairs;
                            map.put(diff, map.getOrDefault(diff, 0)+1);         
