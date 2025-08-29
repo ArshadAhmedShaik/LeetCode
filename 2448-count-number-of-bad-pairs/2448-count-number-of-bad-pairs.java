@@ -1,11 +1,18 @@
 class Solution {
     public long countBadPairs(int[] nums) {
-        Map<Integer, Integer> bag = new HashMap<>();
-        long count = 0;
-        for (int i = 0; i < nums.length; i++) {
-            count += -1 + bag.merge(nums[i] - i, 1, Integer::sum);
-        }
-        int len = nums.length;
-        return 1L * len * (len - 1) / 2 - count;
+                     long badPairs = 0;
+    // map will just count the number of times good pairs are occuring to     the left of a particular element:
+                     Map<Integer, Integer> map = new HashMap<>();
+                     int n = nums.length;
+                     for(int i = 0;i < n;i++) {
+                            int diff = i - nums[i];
+                            int goodPairs = map.getOrDefault(diff, 0);
+
+                           badPairs += i - goodPairs;
+                           map.put(diff, map.getOrDefault(diff, 0)+1);         
+
+                     }
+
+             return badPairs;        
     }
 }
