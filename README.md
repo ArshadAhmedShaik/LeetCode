@@ -261,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1635-number-of-good-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1635-number-of-good-pairs) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1950-sign-of-the-product-of-an-array) |
+| [3279-alice-and-bob-playing-flower-game](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3279-alice-and-bob-playing-flower-game) |
 ## Binary Search
 |  |
 | ------- |
