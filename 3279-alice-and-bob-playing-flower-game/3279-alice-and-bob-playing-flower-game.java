@@ -1,11 +1,13 @@
+import java.math.*;
+
 class Solution {
     public long flowerGame(int n, int m) {
+        BigInteger N = BigInteger.valueOf(n);
+        BigInteger M = BigInteger.valueOf(m);
         
-        long oddX = (n + 1L) / 2;   
-        long evenX = n / 2;         
-        long oddY = (m + 1L) / 2; 
-        long evenY = m / 2;      
-
-        return oddX * evenY + evenX * oddY;
+        BigInteger product = N.multiply(M);      
+        BigInteger result = product.divide(BigInteger.valueOf(2)); 
+        
+        return result.longValue(); 
     }
 }
