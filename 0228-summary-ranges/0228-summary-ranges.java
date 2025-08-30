@@ -7,7 +7,7 @@ class Solution {
         list.add(""+nums[0]);
         return list;
       } else if(n==0) {
-        return list;  // no need to add ""
+        return list;  
       }
       int start = 0;
       int move = 1;
