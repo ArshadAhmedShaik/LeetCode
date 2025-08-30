@@ -7,9 +7,9 @@ class Solution {
          for(int i = 0;i < n;i++) {
                 double ratio = (double)rectangles[i][0]/rectangles[i][1];
 
-                if(map.containsKey(ratio)) {
-                        count += map.get(ratio);
-                } 
+               
+                        count += map.getOrDefault(ratio,0);
+              
 
                 map.put(ratio, map.getOrDefault(ratio, 0)+1);
 
