@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1746-largest-substring-between-two-equal-characters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1746-largest-substring-between-two-equal-characters) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
+| [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2308-divide-array-into-equal-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2429-design-a-food-rating-system](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2429-design-a-food-rating-system) |
@@ -144,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1927-maximum-ascending-subarray-sum](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1950-sign-of-the-product-of-an-array) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2042-maximum-product-difference-between-two-pairs) |
+| [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2145-grid-game](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2145-grid-game) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -208,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1708-design-parking-system](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1708-design-parking-system) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
+| [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2308-divide-array-into-equal-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2448-count-number-of-bad-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
@@ -265,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1635-number-of-good-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1635-number-of-good-pairs) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1950-sign-of-the-product-of-an-array) |
+| [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 | [2448-count-number-of-bad-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3279-alice-and-bob-playing-flower-game) |
 ## Binary Search
@@ -390,4 +394,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1212-sequential-digits](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1212-sequential-digits) |
+## Number Theory
+|  |
+| ------- |
+| [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 <!---LeetCode Topics End-->
