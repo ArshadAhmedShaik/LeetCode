@@ -3,10 +3,7 @@ class Solution {
 
         List<String> list = new ArrayList<>();
         int n = nums.length;
-        if (n == 1) {
-            list.add("" + nums[0]);
-            return list;
-        } else if (n == 0) {
+       if (n == 0) {
             return list;
         }
         int start = 0;
@@ -27,9 +24,9 @@ class Solution {
         }
 
         if (start < n) {
-           
-                list.add("" + nums[start]);
-      
+
+            list.add("" + nums[start]);
+
         }
 
         return list;
