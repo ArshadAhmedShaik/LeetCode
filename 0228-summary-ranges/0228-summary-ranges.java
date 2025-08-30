@@ -27,11 +27,9 @@ class Solution {
         }
 
         if (start < n) {
-            if (nums[start] == nums[n - 1]) {
+           
                 list.add("" + nums[start]);
-            } else {
-                list.add(nums[start] + "->" + nums[n - 1]);
-            }
+      
         }
 
         return list;
