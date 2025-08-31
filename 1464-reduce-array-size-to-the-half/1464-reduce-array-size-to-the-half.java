@@ -45,7 +45,6 @@ class Solution {
         int sum = 0;
         for (int i = 0; i < matrix.length; i++) {
             sum += matrix[i][1];
-
             ans++;
             if (sum >= halfSize) {
                 break;
