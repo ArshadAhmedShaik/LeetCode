@@ -135,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1217-relative-sort-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1217-relative-sort-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1635-number-of-good-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1635-number-of-good-pairs) |
+| [1677-matrix-diagonal-sum](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1677-matrix-diagonal-sum) |
 | [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -343,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0036-valid-sudoku) |
 | [0304-range-sum-query-2d-immutable](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0304-range-sum-query-2d-immutable) |
+| [1677-matrix-diagonal-sum](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1677-matrix-diagonal-sum) |
 | [2145-grid-game](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2145-grid-game) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 ## Union Find
