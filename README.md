@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1217-relative-sort-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1217-relative-sort-array) |
 | [1297-maximum-number-of-balloons](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1297-maximum-number-of-balloons) |
+| [1464-reduce-array-size-to-the-half](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1512-design-underground-system](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1512-design-underground-system) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1619-path-crossing](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1619-path-crossing) |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1217-relative-sort-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1217-relative-sort-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1333-sort-the-jumbled-numbers) |
+| [1464-reduce-array-size-to-the-half](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1635-number-of-good-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1635-number-of-good-pairs) |
 | [1677-matrix-diagonal-sum](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1677-matrix-diagonal-sum) |
 | [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
@@ -179,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0948-sort-an-array) |
 | [1217-relative-sort-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1217-relative-sort-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1333-sort-the-jumbled-numbers) |
+| [1464-reduce-array-size-to-the-half](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2042-maximum-product-difference-between-two-pairs) |
@@ -192,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0179-largest-number) |
 | [0409-longest-palindrome](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0409-longest-palindrome) |
 | [0680-valid-palindrome-ii](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0680-valid-palindrome-ii) |
+| [1464-reduce-array-size-to-the-half](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1464-reduce-array-size-to-the-half) |
 | [2487-optimal-partition-of-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2487-optimal-partition-of-string) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 | [3262-find-polygon-with-the-largest-perimeter](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3262-find-polygon-with-the-largest-perimeter) |
@@ -322,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0948-sort-an-array) |
+| [1464-reduce-array-size-to-the-half](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1464-reduce-array-size-to-the-half) |
 | [2429-design-a-food-rating-system](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2429-design-a-food-rating-system) |
 ## Merge Sort
 |  |
