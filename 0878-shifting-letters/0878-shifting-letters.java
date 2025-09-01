@@ -3,20 +3,14 @@ class Solution {
         StringBuilder sb = new StringBuilder();
         int n = s.length();
 
-        long[] suffix = new long[n];
+        long totalShift = 0;
 
-        suffix[n-1] = shifts[n-1];
-
-        for(int i = n - 2;i >= 0;i--) {
-                suffix[i] = suffix[i+1] + shifts[i];
+        for (int i = n - 1; i >= 0; i--) {
+            totalShift = (totalShift + shifts[i]) % 26;
+            int val = (s.charAt(i) - 'a' + (int) totalShift) % 26;
+            sb.append((char) ('a' + val));
         }
 
-        for (int i = 0; i < n; i++) {
-            long shift = suffix[i];
-            long val = (s.charAt(i) - 'a' + shift) % 26;
-            sb.append((char)('a' + val));
-        }
-
-        return sb.toString();
+        return sb.reverse().toString();
     }
 }
