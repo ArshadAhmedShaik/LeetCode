@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0551-student-attendance-record-i](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0551-student-attendance-record-i) |
 | [0680-valid-palindrome-ii](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0680-valid-palindrome-ii) |
 | [0807-custom-sort-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0807-custom-sort-string) |
+| [0878-shifting-letters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0878-shifting-letters) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0952-word-subsets](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0952-word-subsets) |
 | [1044-find-common-characters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1044-find-common-characters) |
@@ -128,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0645-set-mismatch](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0645-set-mismatch) |
 | [0724-find-pivot-index](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0724-find-pivot-index) |
+| [0878-shifting-letters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0878-shifting-letters) |
 | [0932-monotonic-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0932-monotonic-array) |
 | [0948-sort-an-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0948-sort-an-array) |
 | [0952-word-subsets](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0952-word-subsets) |
@@ -307,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0304-range-sum-query-2d-immutable](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0560-subarray-sum-equals-k](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0724-find-pivot-index) |
+| [0878-shifting-letters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0878-shifting-letters) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
