@@ -1,5 +1,9 @@
 class Solution {
-    public String shiftingLetters(String s, int[] shifts) {
+    static {
+         for(int i = 0;i < 500;i++)
+            shiftingLetters("abcd", new int[] {1,2,3,4});    
+    }
+    public static String shiftingLetters(String s, int[] shifts) {
         char[] char_array = s.toCharArray();
         long total_shifts = 0L;
         int shifts_len = shifts.length;
