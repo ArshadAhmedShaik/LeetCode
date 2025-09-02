@@ -3,12 +3,11 @@ class Solution {
         int n = customers.length();
         int penalty = 0;
 
-      
-        for (int i = 0; i < n; i++) {
-            if (customers.charAt(i) == 'Y') penalty++;
-        }
+        // for (int i = 0; i < n; i++) {
+        //     if (customers.charAt(i) == 'Y') penalty++;
+        // }
 
-        int minPenalty = penalty;
+        int minPenalty = 0;
         int minHour = 0;
 
         for (int i = 0; i < n; i++) {
