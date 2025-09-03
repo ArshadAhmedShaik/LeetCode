@@ -136,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1016-subarray-sums-divisible-by-k](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1044-find-common-characters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1044-find-common-characters) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
+| [1184-car-pooling](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1184-car-pooling) |
 | [1217-relative-sort-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1217-relative-sort-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1464-reduce-array-size-to-the-half](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1464-reduce-array-size-to-the-half) |
@@ -183,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0645-set-mismatch](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0645-set-mismatch) |
 | [0807-custom-sort-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0807-custom-sort-string) |
 | [0948-sort-an-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0948-sort-an-array) |
+| [1184-car-pooling](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1184-car-pooling) |
 | [1217-relative-sort-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1217-relative-sort-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1464-reduce-array-size-to-the-half](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1464-reduce-array-size-to-the-half) |
@@ -294,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [1184-car-pooling](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1184-car-pooling) |
 | [1708-design-parking-system](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1708-design-parking-system) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [1803-average-waiting-time](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1803-average-waiting-time) |
@@ -311,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0724-find-pivot-index) |
 | [0878-shifting-letters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0878-shifting-letters) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1184-car-pooling](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1184-car-pooling) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -333,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0948-sort-an-array) |
+| [1184-car-pooling](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1184-car-pooling) |
 | [1464-reduce-array-size-to-the-half](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1464-reduce-array-size-to-the-half) |
 | [2429-design-a-food-rating-system](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2429-design-a-food-rating-system) |
 ## Merge Sort
