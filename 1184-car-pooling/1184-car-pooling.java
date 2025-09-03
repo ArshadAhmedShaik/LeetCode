@@ -1,24 +1,22 @@
 class Solution {
     public boolean carPooling(int[][] trips, int capacity) {
-                int[] capacityAtEachLocation = new int[1001];
-                for(int[] x: trips) {
-                        int startLocation = x[1];
-                        int endLocation = x[2];
-                        int noOfCustomers = x[0];
-                        capacityAtEachLocation[startLocation] += noOfCustomers;
-                        capacityAtEachLocation[endLocation] -= noOfCustomers;
-                }
+        
+        int[] way = new int[1001];
 
-       for (int i = 0; i < 1001; i++) {
-    if (i != 0) {
-        capacityAtEachLocation[i] += capacityAtEachLocation[i - 1];
-    }
-    if (capacityAtEachLocation[i] > capacity) {
-        return false;
-    }
-}
-
+        for(int i=0;i<trips.length;i++){
+            int c=trips[i][0];
+            int s=trips[i][1];
+            int e=trips[i][2];
+            way[s]+=c;
+            way[e]-=c;
+        }
+        int[] pre = new int[1001];
+        pre[0]=way[0];
+        if(pre[0]>capacity) return false;
+        for(int i=1;i<1001;i++){
+            pre[i]=pre[i-1]+way[i];
+            if(pre[i]>capacity) return false;
+        }
         return true;
-
     }
 }
