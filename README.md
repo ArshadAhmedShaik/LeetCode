@@ -163,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2429-design-a-food-rating-system](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2429-design-a-food-rating-system) |
 | [2448-count-number-of-bad-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2502-sort-the-people](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2502-sort-the-people) |
+| [2625-increment-submatrices-by-one](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2625-increment-submatrices-by-one) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2724-convert-an-array-into-a-2d-array-with-conditions](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2724-convert-an-array-into-a-2d-array-with-conditions) |
@@ -320,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2145-grid-game](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2145-grid-game) |
 | [2576-minimum-penalty-for-a-shop](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2576-minimum-penalty-for-a-shop) |
+| [2625-increment-submatrices-by-one](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2625-increment-submatrices-by-one) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3262-find-polygon-with-the-largest-perimeter](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3262-find-polygon-with-the-largest-perimeter) |
 ## Design
@@ -366,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2132-convert-1d-array-into-2d-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2145-grid-game](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2145-grid-game) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [2625-increment-submatrices-by-one](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2625-increment-submatrices-by-one) |
 ## Union Find
 |  |
 | ------- |
