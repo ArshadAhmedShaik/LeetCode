@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0013-roman-to-integer) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0049-group-anagrams) |
+| [0067-add-binary](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0067-add-binary) |
 | [0125-valid-palindrome](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0125-valid-palindrome) |
 | [0168-excel-sheet-column-title](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0171-excel-sheet-column-number) |
@@ -260,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0067-add-binary) |
 | [0136-single-number](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0136-single-number) |
 | [0187-repeated-dna-sequences](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0187-repeated-dna-sequences) |
 | [0191-number-of-1-bits](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0191-number-of-1-bits) |
@@ -273,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0013-roman-to-integer](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0013-roman-to-integer) |
 | [0066-plus-one](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0067-add-binary) |
 | [0168-excel-sheet-column-title](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0171-excel-sheet-column-number) |
 | [0172-factorial-trailing-zeroes](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0172-factorial-trailing-zeroes) |
@@ -298,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0067-add-binary) |
 | [1184-car-pooling](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1184-car-pooling) |
 | [1708-design-parking-system](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1708-design-parking-system) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
