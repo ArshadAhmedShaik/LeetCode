@@ -3,18 +3,15 @@ import java.util.Map;
 
 class Solution {
     public int minOperations(int[] nums) {
-        if (nums == null || nums.length == 0) return 0; // empty array → 0 operations
-
-        // Step 1: Count frequency of each number
-        Map<Integer, Integer> freq = new HashMap<>();
+        int[] counts = new int[1000001];
         for (int x : nums) {
-            freq.put(x, freq.getOrDefault(x, 0) + 1);
+            counts[x]++;
         }
 
         int operations = 0;
 
-        // Step 2: Process each number
-        for (int count : freq.values()) {
+        for (int count : counts) {
+            if (count==0) continue;
             if (count == 1) return -1; 
             else if (count % 3 == 0) {
                 operations += count / 3;
