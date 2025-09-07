@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2308-divide-array-into-equal-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
+| [2362-minimum-rounds-to-complete-all-tasks](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2429-design-a-food-rating-system](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2429-design-a-food-rating-system) |
 | [2448-count-number-of-bad-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2487-optimal-partition-of-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2487-optimal-partition-of-string) |
@@ -163,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2195-time-needed-to-buy-tickets](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2195-time-needed-to-buy-tickets) |
 | [2308-divide-array-into-equal-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [2362-minimum-rounds-to-complete-all-tasks](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2429-design-a-food-rating-system](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2429-design-a-food-rating-system) |
 | [2448-count-number-of-bad-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2502-sort-the-people](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2502-sort-the-people) |
@@ -207,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0409-longest-palindrome](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0409-longest-palindrome) |
 | [0680-valid-palindrome-ii](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0680-valid-palindrome-ii) |
 | [1464-reduce-array-size-to-the-half](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1464-reduce-array-size-to-the-half) |
+| [2362-minimum-rounds-to-complete-all-tasks](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2487-optimal-partition-of-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2487-optimal-partition-of-string) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 | [3094-minimum-number-of-operations-to-make-array-empty](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3094-minimum-number-of-operations-to-make-array-empty) |
@@ -230,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2308-divide-array-into-equal-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
+| [2362-minimum-rounds-to-complete-all-tasks](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2448-count-number-of-bad-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [3094-minimum-number-of-operations-to-make-array-empty](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3094-minimum-number-of-operations-to-make-array-empty) |
 ## Divide and Conquer
