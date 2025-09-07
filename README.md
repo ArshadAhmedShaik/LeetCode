@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1044-find-common-characters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1044-find-common-characters) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1297-maximum-number-of-balloons](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1297-maximum-number-of-balloons) |
+| [1371-minimum-remove-to-make-valid-parentheses](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1512-design-underground-system](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1512-design-underground-system) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
@@ -238,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0496-next-greater-element-i) |
+| [1371-minimum-remove-to-make-valid-parentheses](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 ## Monotonic Stack
 |  |
