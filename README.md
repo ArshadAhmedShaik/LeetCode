@@ -143,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1184-car-pooling](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1184-car-pooling) |
 | [1217-relative-sort-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1217-relative-sort-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1333-sort-the-jumbled-numbers) |
+| [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1464-reduce-array-size-to-the-half](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1635-number-of-good-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1635-number-of-good-pairs) |
 | [1677-matrix-diagonal-sum](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1677-matrix-diagonal-sum) |
@@ -294,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0172-factorial-trailing-zeroes](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0172-factorial-trailing-zeroes) |
 | [0263-ugly-number](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0263-ugly-number) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
+| [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1635-number-of-good-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1635-number-of-good-pairs) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1817-calculate-money-in-leetcode-bank) |
