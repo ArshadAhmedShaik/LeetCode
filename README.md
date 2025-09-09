@@ -174,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2724-convert-an-array-into-a-2d-array-with-conditions](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2724-convert-an-array-into-a-2d-array-with-conditions) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3094-minimum-number-of-operations-to-make-array-empty](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3094-minimum-number-of-operations-to-make-array-empty) |
+| [3241-divide-array-into-arrays-with-max-difference](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
 | [3262-find-polygon-with-the-largest-perimeter](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3262-find-polygon-with-the-largest-perimeter) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -200,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2042-maximum-product-difference-between-two-pairs) |
 | [2502-sort-the-people](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2502-sort-the-people) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
+| [3241-divide-array-into-arrays-with-max-difference](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3262-find-polygon-with-the-largest-perimeter](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3262-find-polygon-with-the-largest-perimeter) |
 ## Greedy
 |  |
@@ -213,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2487-optimal-partition-of-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2487-optimal-partition-of-string) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 | [3094-minimum-number-of-operations-to-make-array-empty](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3094-minimum-number-of-operations-to-make-array-empty) |
+| [3241-divide-array-into-arrays-with-max-difference](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3262-find-polygon-with-the-largest-perimeter](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3262-find-polygon-with-the-largest-perimeter) |
 ## Counting Sort
 |  |
