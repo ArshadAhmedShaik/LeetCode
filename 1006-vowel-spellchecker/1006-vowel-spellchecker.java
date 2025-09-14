@@ -38,14 +38,15 @@ class Solution {
     }
 
     private String devowel(String word, Set<Character> vowelSet) {
-        StringBuilder sb = new StringBuilder();
+        char[] sb = new char[word.length()];
+        int index = 0;
         for (char c : word.toCharArray()) {
             if (vowelSet.contains(c)) {
-                sb.append('*');
+                sb[index++] = '*';
             } else {
-                sb.append(c);
+                sb[index++] = c;
             }
         }
-        return sb.toString();
+        return new String(sb);
     }
 }
