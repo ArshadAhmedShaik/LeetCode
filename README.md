@@ -181,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
 | [3262-find-polygon-with-the-largest-perimeter](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3262-find-polygon-with-the-largest-perimeter) |
+| [3278-find-the-number-of-ways-to-place-people-i](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3429-special-array-i) |
@@ -207,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2888-minimum-index-of-a-valid-split](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3262-find-polygon-with-the-largest-perimeter](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3262-find-polygon-with-the-largest-perimeter) |
+| [3278-find-the-number-of-ways-to-place-people-i](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 ## Greedy
 |  |
 | ------- |
@@ -305,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1950-sign-of-the-product-of-an-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1950-sign-of-the-product-of-an-array) |
 | [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 | [2448-count-number-of-bad-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
+| [3278-find-the-number-of-ways-to-place-people-i](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3830-find-closest-person](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3830-find-closest-person) |
 ## Binary Search
@@ -441,8 +444,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1212-sequential-digits](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/1212-sequential-digits) |
+| [3278-find-the-number-of-ways-to-place-people-i](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 ## Number Theory
 |  |
 | ------- |
 | [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
+## Geometry
+|  |
+| ------- |
+| [3278-find-the-number-of-ways-to-place-people-i](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 <!---LeetCode Topics End-->
