@@ -19,9 +19,9 @@ class Solution {
                     if(y2>y1) {
                         continue;
                     } else {
-                        if(maxY>y1 || maxY<y2) {
-                                count++;
-                        }
+                        if(maxY<=y1 && maxY>=y2) {
+                                
+                        } else count++;
                     }
                     maxY = Math.max(maxY, y2);    
             }
