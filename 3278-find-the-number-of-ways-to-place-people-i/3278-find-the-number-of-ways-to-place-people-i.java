@@ -1,9 +1,9 @@
 class Solution {
     public int numberOfPairs(int[][] points) {
        Arrays.sort(points, (a, b) -> {
-             if(a[0]!=b[0]) return b[0] - a[0];
+             if(a[0]!=b[0]) return a[0] - b[0];
              else {
-                return a[1] - b[1];
+                return b[1] - a[1];
              }
        });
       int n = points.length;  
@@ -11,19 +11,19 @@ class Solution {
       for(int i = 0;i < n;i++) {
             int x1 = points[i][0];
             int y1 = points[i][1];
-            int minY = Integer.MAX_VALUE;
+            int maxY = Integer.MIN_VALUE;
             for(int j = i + 1;j < n;j++) {
 
                     int x2 = points[j][0];
                     int y2 = points[j][1];
-                    if(y2<y1) {
+                    if(y2>y1) {
                         continue;
                     } else {
-                        if(minY>y2) {
+                        if(maxY<y2 || maxY>y1) {
                                 count++;
                         }
                     }
-                    minY = Math.min(minY, y2);    
+                    maxY = Math.max(maxY, y2);    
             }
       }
 
