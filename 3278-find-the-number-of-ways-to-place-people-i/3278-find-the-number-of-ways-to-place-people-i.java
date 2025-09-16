@@ -21,7 +21,7 @@ class Solution {
                         }
                     }
 
-            max = Math.max(max, y2);
+                max = Math.max(max, y2);
 
             }
      }
