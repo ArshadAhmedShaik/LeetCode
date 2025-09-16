@@ -19,7 +19,7 @@ class Solution {
                     if(y2>y1) {
                         continue;
                     } else {
-                        if(maxY<y2 || maxY>y1) {
+                        if(maxY>y1 || maxY<y2) {
                                 count++;
                         }
                     }
