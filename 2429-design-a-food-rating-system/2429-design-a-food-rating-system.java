@@ -1,41 +1,48 @@
-class FoodRatings {
-    Map<String, Integer> foodToRatings = new HashMap<>();
-    Map<String, String> foodToCuisine = new HashMap<>();
-    Map<String, TreeSet<String>> cuisineToFoods = new HashMap<>();
+public class FoodRatings {
+    private Map<String, Integer> foodToRating = new HashMap<>();
+    private Map<String, String> foodToCuisine = new HashMap<>();
+    private Map<String, TreeSet<FoodEntry>> cuisineToFoods = new HashMap<>();
+    private static class FoodEntry {
+        String food;
+        int rating;
 
+        FoodEntry(String food, int rating) {
+            this.food = food;
+            this.rating = rating;
+        }
+    }
     public FoodRatings(String[] foods, String[] cuisines, int[] ratings) {
-        int n = foods.length;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < foods.length; i++) {
             String food = foods[i];
             String cuisine = cuisines[i];
             int rating = ratings[i];
 
-            foodToRatings.put(food, rating);
+            foodToRating.put(food, rating);
             foodToCuisine.put(food, cuisine);
 
-            cuisineToFoods.putIfAbsent(cuisine,
-                new TreeSet<>((a, b) -> {
-                    int cmp = Integer.compare(foodToRatings.get(b), foodToRatings.get(a)); 
-                    if (cmp == 0) return a.compareTo(b); 
-                    return cmp;
-                })
-            );
-
-            cuisineToFoods.get(cuisine).add(food);
+            cuisineToFoods.computeIfAbsent(cuisine, k -> new TreeSet<>((a, b) -> {
+                    if (a.rating != b.rating) {
+                        return b.rating - a.rating;
+                    }
+                    return a.food.compareTo(b.food); 
+                })).add(new FoodEntry(food, rating));
         }
     }
-
     public void changeRating(String food, int newRating) {
         String cuisine = foodToCuisine.get(food);
-        TreeSet<String> set = cuisineToFoods.get(cuisine);
+        TreeSet<FoodEntry> foodsSet = cuisineToFoods.get(cuisine);
 
-      
-        set.remove(food);
-        foodToRatings.put(food, newRating);
-        set.add(food);
+
+        foodsSet.remove(new FoodEntry(food, foodToRating.get(food)));
+
+
+        foodToRating.put(food, newRating);
+
+     
+        foodsSet.add(new FoodEntry(food, newRating));
     }
 
     public String highestRated(String cuisine) {
-        return cuisineToFoods.get(cuisine).first();
+        return cuisineToFoods.get(cuisine).first().food;
     }
 }
