@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2163-kth-distinct-string-in-an-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2308-divide-array-into-equal-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
+| [2428-equal-row-and-column-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2428-equal-row-and-column-pairs) |
 | [2429-design-a-food-rating-system](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2429-design-a-food-rating-system) |
 | [2448-count-number-of-bad-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2487-optimal-partition-of-string](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2487-optimal-partition-of-string) |
@@ -171,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2308-divide-array-into-equal-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
+| [2428-equal-row-and-column-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2428-equal-row-and-column-pairs) |
 | [2429-design-a-food-rating-system](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2429-design-a-food-rating-system) |
 | [2448-count-number-of-bad-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2502-sort-the-people](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2502-sort-the-people) |
@@ -335,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2195-time-needed-to-buy-tickets](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2195-time-needed-to-buy-tickets) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [2428-equal-row-and-column-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2428-equal-row-and-column-pairs) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -398,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2132-convert-1d-array-into-2d-array](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2145-grid-game](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2145-grid-game) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [2428-equal-row-and-column-pairs](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2428-equal-row-and-column-pairs) |
 | [2625-increment-submatrices-by-one](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/2625-increment-submatrices-by-one) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/ArshadAhmedShaik/LeetCode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 ## Union Find
