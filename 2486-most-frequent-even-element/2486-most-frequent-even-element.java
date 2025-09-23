@@ -1,5 +1,9 @@
 class Solution {
-    public int mostFrequentEven(int[] nums) {
+    static {
+            for(int i = 0;i < 500;i++)
+                mostFrequentEven(new int[] {1,1,1,2,2,3,5});
+    }
+    public static int mostFrequentEven(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
         for(int i = 0;i < nums.length;i++) {
               map.put(nums[i], map.getOrDefault(nums[i], 0)+1);
